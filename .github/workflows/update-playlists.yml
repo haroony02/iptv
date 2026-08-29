@@ -27,7 +27,7 @@ jobs:
     
     - name: تحديث قوائم البث
       run: |
-        python auto_update_playlists.py
+        python update_playlists.py
     
     - name: إعداد Git
       run: |
