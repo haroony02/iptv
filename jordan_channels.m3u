@@ -6,9 +6,9 @@ https://jrtv-live.ercdn.net/jordanhd/jordanhd.m3u8?DVR&v=9e45ccfa
 #EXTINF:-1 tvg-id="jordan_tv" tvg-name="Jordan TV" tvg-logo="" group-title="قنوات الاردن",Jordan TV
 http://stream.joinvisions.net:1935/jorlive/jrtv/manifest.f4m?DVR
 #EXTINF:-1 tvg-id="jordan_sport1" tvg-name="Jordan Sport" tvg-logo="" group-title="قنوات الاردن",Jordan Sport
-https://games1.elahmad.store/tv13_www_elahmad._jordan_sport/index.m3u8?token=8d60cfd5e8121e7f0fd83a46b924067219e5d28e-226cd05f9b9ef14bc297cc4b37d87dfc-1788018158-1788016358
+https://games1.elahmad.store/tv13_www_elahmad._jordan_sport/index.m3u8?token=adaaf3316f64b3d49fdbff0c55fa515b43e376bf-ccc9a64623957ec4cf30667bc7f869c4-1788030837-1788029037
 #EXTINF:-1 tvg-id="royatv1" tvg-name="Roya TV" tvg-logo="" group-title="قنوات الاردن",Roya TV
-https://live.kwikmotion.com/royatvlive/royatv.smil/playlist.m3u8?hdnts=exp=1788020019~acl=/royatvlive/royatv.smil/*~hmac=e3121015f09219f19b8293e2957f347ceca49cd2cb936dce347e2fc1b066199b
+https://live.kwikmotion.com/royatvlive/royatv.smil/playlist.m3u8?hdnts=exp=1788032698~acl=/royatvlive/royatv.smil/*~hmac=3fa9e901200d2ac8fd7f3b682108b43eedc9994803bbefc83ed718386fa5a79e
 #EXTINF:-1 tvg-id="royatv" tvg-name="Roya TV" tvg-logo="" group-title="قنوات الاردن",Roya TV
 royatv
 #EXTINF:-1 tvg-id="alhaqeeqa" tvg-name="الحقيقة الدولية" tvg-logo="" group-title="قنوات الاردن",الحقيقة الدولية
@@ -18,14 +18,8 @@ https://fastly.live.brightcove.com/6376826200112/eu-central-1/6415809151001/eyJh
 #EXTINF:-1 tvg-id="amman_tv" tvg-name="Amman TV" tvg-logo="" group-title="قنوات الاردن",Amman TV
 https://htvnksdtmy.erbvr.com/ammantvhd/ammantvhd.m3u8
 #EXTINF:-1 tvg-id="karameesh" tvg-name="قناة كراميش" tvg-logo="" group-title="قنوات الاردن",قناة كراميش
-https://games1.elahmad.store/tv13_www_elahmad._karameesh/index.m3u8?token=a004539960e401e4464ca8c8605a248876f89609-53fdb99f529a64e86e696eb72c08fee9-1788018163-1788016363
+https://games1.elahmad.store/tv13_www_elahmad._karameesh/index.m3u8?token=aca5afcb0e0b42e39fbec73e4230df4772eb0190-28285c3c3ee178dd54f8834621faf03a-1788030844-1788029044
 #EXTINF:-1 tvg-id="kifa" tvg-name="Kifa Tv" tvg-logo="" group-title="قنوات الاردن",Kifa Tv
-https://games2.elahmad.store/tv13_www_elahmad._kifa/index.m3u8?token=2c8e0ce2543bf5bb16be94d319533bccf8300013-ade583e1b44b6a3d0c97dfb0a43f6ae0-1788018164-1788016364
-#EXTINF:-1 tvg-id="aonetv" tvg-name="A1Jordan" tvg-logo="" group-title="قنوات الاردن",A1Jordan
-http://master.starmena-cloud.com/hls/a1jo.m3u8
-#EXTINF:-1 tvg-id="toyorbabytv" tvg-name="طيور بيبي" tvg-logo="" group-title="قنوات الاردن",طيور بيبي
-http://95.170.215.124/live/disk1/TOYOR-BABY/anevia1/index.m3u8?v=9e45ccfa
-#EXTINF:-1 tvg-id="jo_sat" tvg-name="JoSat Tv" tvg-logo="" group-title="قنوات الاردن",JoSat Tv
-/tv/m3u8/twitch_tv_8.m3u8?id=josattv
+https://games2.elahmad.store/tv13_www_elahmad._kifa/index.m3u8?token=51823d82d1fe35f93d1fa3032091bbc42cd4a36a-c328898fd49f73329a4be0fd31d1e7c8-1788030845-1788029045
 #EXTINF:-1 tvg-id="toyoraljanahtv" tvg-name="Toyor Aljanah" tvg-logo="" group-title="قنوات الاردن",Toyor Aljanah
 https://www.elahmad.ru/tv/youtube.php?id=toyoraljanahtv
