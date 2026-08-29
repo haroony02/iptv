@@ -33,7 +33,9 @@ jobs:
         python update_playlists.py
     
     - name: Push إلى GitHub
-      uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-        commit_message: "تحديث تلقائي للقوائم $(date '+%Y-%m-%d %H:%M:%S')"
-        branch: main
+      run: |
+        git config user.email "actions@github.com"
+        git config user.name "GitHub Actions"
+        git add -A
+        git diff --staged --quiet || git commit -m "تحديث تلقائي للقوائم $(date '+%Y-%m-%d %H:%M:%S')"
+        git push https://${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
