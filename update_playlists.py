@@ -16,6 +16,12 @@ from urllib.parse import urljoin, urlparse, parse_qs
 from collections import OrderedDict
 from datetime import datetime
 
+# Fix encoding issues on Windows
+if sys.platform == 'win32':
+    import io
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+
 # Settings
 BASE = "https://www.elahmad.ru/tv"
 OUTPUT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -91,7 +97,8 @@ def collect_channels(session, categories, delay=0.3):
     """Collect channels from website"""
     results = []
     for cat_id, cat_name in categories.items():
-        print(f"Processing {cat_name}...", end=" ", flush=True)
+        # Use English text for print to avoid encoding issues
+        print(f"Processing category {cat_id}...", end=" ", flush=True)
         url = f"{BASE}/mobile-live-stream/?id={cat_id}"
         try:
             r = session.get(url, timeout=20)
@@ -238,6 +245,183 @@ def save_json(obj, filename):
         json.dump(obj, f, ensure_ascii=False, indent=2)
     return p
 
+def create_channel_links_file(channels, filename):
+    """Create a simple text file with channel names and links"""
+    lines = []
+    lines.append("# Channel Links File")
+    lines.append(f"# Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    lines.append(f"# Total Channels: {len(channels)}")
+    lines.append("# Format: Channel Name | Stream URL")
+    lines.append("=" * 80)
+    
+    for ch in channels:
+        name = ch["name"]
+        url = ch.get("stream_url") or ch["player_url"]
+        category = ch["category"]
+        lines.append(f"{name} | {category} | {url}")
+    
+    p = os.path.join(OUTPUT_DIR, filename)
+    with open(p, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+    print(f"Created channel links file: {filename}")
+    return p
+
+def create_channel_links_json(channels, filename):
+    """Create a JSON file with channel information"""
+    channel_data = []
+    for ch in channels:
+        channel_data.append({
+            "name": ch["name"],
+            "category": ch["category"],
+            "stream_url": ch.get("stream_url") or ch["player_url"],
+            "stream_id": ch["stream_id"],
+            "player_type": ch["player_type"]
+        })
+    
+    data = {
+        "generated": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+        "total_channels": len(channel_data),
+        "channels": channel_data
+    }
+    
+    p = os.path.join(OUTPUT_DIR, filename)
+    with open(p, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f"Created channel links JSON: {filename}")
+    return p
+
+def create_channel_links_html(channels, filename):
+    """Create an HTML file with clickable channel links"""
+    html_content = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arabic IPTV Channels</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .info {
+            text-align: center;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .category {
+            margin-top: 30px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .category h2 {
+            color: #2c3e50;
+        }
+        .channel {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+            transition: background-color 0.3s;
+        }
+        .channel:hover {
+            background-color: #f9f9f9;
+        }
+        .channel-name {
+            font-weight: bold;
+            color: #333;
+        }
+        .channel-link {
+            color: #3498db;
+            text-decoration: none;
+            padding: 5px 10px;
+            background-color: #ecf0f1;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .channel-link:hover {
+            background-color: #3498db;
+            color: white;
+        }
+        .copy-btn {
+            background-color: #27ae60;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        .copy-btn:hover {
+            background-color: #2ecc71;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📺 Arabic IPTV Channels</h1>
+        <div class="info">
+            <p>Generated: """ + datetime.now().strftime('%Y-%m-%d %H:%M:%S') + """</p>
+            <p>Total Channels: """ + str(len(channels)) + """</p>
+        </div>
+"""
+    
+    # Group by category
+    by_cat = {}
+    for ch in channels:
+        by_cat.setdefault(ch["category"], []).append(ch)
+    
+    for category, cat_channels in sorted(by_cat.items()):
+        html_content += f'<div class="category">\n'
+        html_content += f'    <h2>{category}</h2>\n'
+        
+        for ch in cat_channels:
+            name = ch["name"]
+            url = ch.get("stream_url") or ch["player_url"]
+            html_content += f'    <div class="channel">\n'
+            html_content += f'        <span class="channel-name">{name}</span>\n'
+            html_content += f'        <div>\n'
+            html_content += f'            <button class="copy-btn" onclick="copyToClipboard(\'{url}\')">Copy Link</button>\n'
+            html_content += f'            <a href="{url}" class="channel-link" target="_blank">Open Stream</a>\n'
+            html_content += f'        </div>\n'
+            html_content += f'    </div>\n'
+        
+        html_content += f'</div>\n'
+    
+    html_content += """
+    </div>
+    <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(function() {
+                alert('Link copied to clipboard!');
+            }, function(err) {
+                console.error('Could not copy text: ', err);
+            });
+        }
+    </script>
+</body>
+</html>
+"""
+    
+    p = os.path.join(OUTPUT_DIR, filename)
+    with open(p, "w", encoding="utf-8") as f:
+        f.write(html_content)
+    print(f"Created channel links HTML: {filename}")
+    return p
+
 def main():
     """Main function"""
     os.chdir(OUTPUT_DIR)
@@ -272,8 +456,8 @@ def main():
         resolved = []
         ok = 0
         for idx, ch in enumerate(targets, 1):
-            short_name = ch["name"][:40] if len(ch["name"]) > 40 else ch["name"]
-            print(f"[{idx}/{len(targets)}] {short_name}...", end=" ", flush=True)
+            # Use simple index instead of Arabic name to avoid encoding issues
+            print(f"[{idx}/{len(targets)}] Processing channel...", end=" ", flush=True)
             
             try:
                 url = resolve_stream(session, ch)
@@ -326,6 +510,11 @@ def main():
     if only_real:
         build_m3u(only_real, "ELAHMAD_LIVE_CLEAN_100%.m3u")
         print("Clean file created")
+        
+        # Create individual channel links
+        create_channel_links_file(only_real, "channel_links.txt")
+        create_channel_links_json(only_real, "channel_links.json")
+        create_channel_links_html(only_real, "channel_links.html")
     
     # Save summary
     summary = {

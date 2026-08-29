@@ -48,3 +48,12 @@ code.txt
 # Temporary files
 _debug_player.html
 _test_decrypt.py
+
+# Temporary channel data files
+elahmad_channels_raw.json
+elahmad_channels_resolved.json
+elahmad_with_player_pages.m3u
+BUNDLE_*.m3u
+CLEAN_*.m3u
+ELAHMAD_TOP_BUNDLES_CLEAN.m3u
+ELAHMAD_CLEAN_SUMMARY.json
