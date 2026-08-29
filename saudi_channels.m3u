@@ -1,0 +1,81 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="qoran_tv1" tvg-name="القرآن الكريم" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",القرآن الكريم
+https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8
+#EXTINF:-1 tvg-id="qoran_tv2" tvg-name="القرآن الكريم" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",القرآن الكريم
+https://win.holol.com/live/quran/playlist.m3u8
+#EXTINF:-1 tvg-id="alquran" tvg-name="القرآن الكريم" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",القرآن الكريم
+alquran
+#EXTINF:-1 tvg-id="suna_tv1" tvg-name="السنة النبوية" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",السنة النبوية
+https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8
+#EXTINF:-1 tvg-id="suna_tv2" tvg-name="السنة النبوية" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",السنة النبوية
+https://win.holol.com/live/sunnah/playlist.m3u8
+#EXTINF:-1 tvg-id="alsunnah" tvg-name="السنة النبوية" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",السنة النبوية
+alsunnah
+#EXTINF:-1 tvg-id="saudi_1" tvg-name="الأولى السعودية" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",الأولى السعودية
+/tv/m3u8/online_live_14_tv.m3u8?id=saudi_tv&t=111111111
+#EXTINF:-1 tvg-id="saudi_tv" tvg-name="الأولى السعودية" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",الأولى السعودية
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8
+#EXTINF:-1 tvg-id="saudiarabia1" tvg-name="الأولى السعودية" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",الأولى السعودية
+saudiarabia1
+#EXTINF:-1 tvg-id="alekhbariya" tvg-name="القناة الإخبارية" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",القناة الإخبارية
+alekhbariya
+#EXTINF:-1 tvg-id="ekhbariyatv" tvg-name="القناة الإخبارية" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",القناة الإخبارية
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8
+#EXTINF:-1 tvg-id="saudinewstv" tvg-name="القناة الإخبارية" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",القناة الإخبارية
+/tv/m3u8/online_live_14_tv.m3u8?id=saudi_ekhbariya&t=111111111
+#EXTINF:-1 tvg-id="sbc_tv" tvg-name="SBC Channel" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",SBC Channel
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-sbc/90e09c0c28db26435799b4a14892a167/index.m3u8
+#EXTINF:-1 tvg-id="saudi_thaqafiya" tvg-name="الثقافية" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",الثقافية
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thaqafeyyah/28c0d2a20dbf1dc049ce15d3973f494b/index.m3u8
+#EXTINF:-1 tvg-id="alarabiya1" tvg-name="قناة العربية" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",قناة العربية
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-alarabiya/7f90de73d777d04f3dada92f90d35c44/index.m3u8
+#EXTINF:-1 tvg-id="alarabiya2" tvg-name="قناة العربية" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",قناة العربية
+https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="alarabiya3" tvg-name="قناة العربية" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",قناة العربية
+https://svs.itworkscdn.net/alarabiyalive/alarabiyahd.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="alarabiya4" tvg-name="قناة العربية" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",قناة العربية
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/al-arabiya/4e935c88-9b48-4c75-8746-4580162cbf3c/0.m3u8
+#EXTINF:-1 tvg-id="alarabiya_alhadath1" tvg-name="العربية الحدث" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",العربية الحدث
+https://live.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="alarabiya_alhadath2" tvg-name="العربية الحدث" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",العربية الحدث
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-hadath/2ff87ec4c2f3ede35295a20637d9f8fd/index.m3u8
+#EXTINF:-1 tvg-id="alarabiya_alhadath3" tvg-name="العربية الحدث" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",العربية الحدث
+https://svs.itworkscdn.net/alarabiyalive/alhadathhd.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="alarabiya_alhadath4" tvg-name="العربية الحدث" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",العربية الحدث
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-hadath/2ff87ec4c2f3ede35295a20637d9f8fd/index.m3u8
+#EXTINF:-1 tvg-id="alarabiya_business" tvg-name="Alarabiya Business" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",Alarabiya Business
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-alarabiya-business/6736e2ee3a7586c7763d7c7af867021f/index.m3u8
+#EXTINF:-1 tvg-id="makkahtv" tvg-name="قناة مكة" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",قناة مكة
+https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8?v=9e45ccfa
+#EXTINF:-1 tvg-id="zad_tv" tvg-name="قناة زاد" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",قناة زاد
+https://593149.gvideo.io/mpegts/593149_2183883/master_mpegts.m3u8
+#EXTINF:-1 tvg-id="alresoul" tvg-name="قناة الرسول" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",قناة الرسول
+/tv/m3u8/twitch_tv_8.m3u8?id=alrassoulchannel
+#EXTINF:-1 tvg-id="ahl_alquran" tvg-name="قناة صاد" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",قناة صاد
+https://ssadtv.ddns.net/live/saad/playlist.m3u8
+#EXTINF:-1 tvg-id="iqraa_arabic" tvg-name="قناة اقرأ" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",قناة اقرأ
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-iqraa/71b9601f8a91d79a78a02f86ae378d88/index.m3u8
+#EXTINF:-1 tvg-id="iqraa_africa" tvg-name="International" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",International
+https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv2/playlist.m3u8
+#EXTINF:-1 tvg-id="ayat_tv" tvg-name="قناة ايات" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",قناة ايات
+https://win.holol.com/live/ayat/playlist.m3u8
+#EXTINF:-1 tvg-id="alamakendrama" tvg-name="الأماكن دراما" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",الأماكن دراما
+alamakendrama
+#EXTINF:-1 tvg-id="al_khalij" tvg-name="AlKhalijTV" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",AlKhalijTV
+https://mn-nl.mncdn.com/khalij/khalij/playlist.m3u8
+#EXTINF:-1 tvg-id="asharq_tv" tvg-name="قناة الشرق" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",قناة الشرق
+https://svs.itworkscdn.net/bloomberarlive/bloomberg.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-id="alsahraatv" tvg-name="قناة الصحراء" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",قناة الصحراء
+https://games2.elahmad.store/tv13_www_elahmad._alsahraa/index.m3u8?token=5120981925628e63528d5d0198ca535306305394-075086ddd0a4787af7be120ce7e9cbd2-1788001514-1787999714
+#EXTINF:-1 tvg-id="SaudiQuranTv" tvg-name="القرآن الكريم" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",القرآن الكريم
+https://www.elahmad.ru/tv/youtube.php?id=SaudiQuranTv
+#EXTINF:-1 tvg-id="SaudiSunnahTv" tvg-name="السنة النبوية" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",السنة النبوية
+https://www.elahmad.ru/tv/youtube.php?id=SaudiSunnahTv
+#EXTINF:-1 tvg-id="SaudiChannelOne" tvg-name="الأولى السعودية" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",الأولى السعودية
+https://www.elahmad.ru/tv/youtube.php?id=SaudiChannelOne
+#EXTINF:-1 tvg-id="SaudiNewsTV" tvg-name="القناة الإخبارية" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",القناة الإخبارية
+https://www.elahmad.ru/tv/youtube.php?id=SaudiNewsTV
+#EXTINF:-1 tvg-id="alarabiya" tvg-name="قناة العربية" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",قناة العربية
+https://www.elahmad.ru/tv/youtube.php?id=alarabiya
+#EXTINF:-1 tvg-id="alwaqetv" tvg-name="قناة الواقع" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",قناة الواقع
+https://www.elahmad.ru/tv/youtube.php?id=alwaqetv

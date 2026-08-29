@@ -1,0 +1,69 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="aljazeer_ar1" tvg-name="قناة الجزيرة" tvg-logo="" group-title="قنوات قطر - الجزيرة",قناة الجزيرة
+https://live-hls-web-aja-gcp.thehlive.com/AJA/index.m3u8
+#EXTINF:-1 tvg-id="aljazeer_ar2" tvg-name="قناة الجزيرة" tvg-logo="" group-title="قنوات قطر - الجزيرة",قناة الجزيرة
+https://live-hls-web-aja2-gcp.thehlive.com/AJA2/index.m3u8
+#EXTINF:-1 tvg-id="aljazeer_ar3" tvg-name="قناة الجزيرة" tvg-logo="" group-title="قنوات قطر - الجزيرة",قناة الجزيرة
+https://live-hls-web-aja.getaj.net/AJA/index.m3u8
+#EXTINF:-1 tvg-id="aljazeera" tvg-name="قناة الجزيرة" tvg-logo="" group-title="قنوات قطر - الجزيرة",قناة الجزيرة
+aljazeera
+#EXTINF:-1 tvg-id="aljamuba_ar1" tvg-name="الجزيرة مباشر" tvg-logo="" group-title="قنوات قطر - الجزيرة",الجزيرة مباشر
+https://live-hls-web-ajm-gcp.thehlive.com/AJM/index.m3u8
+#EXTINF:-1 tvg-id="aljamisr_ar1" tvg-name="الجزيرة مباشر مصر" tvg-logo="" group-title="قنوات قطر - الجزيرة",الجزيرة مباشر مصر
+https://live-hls-web-ajm-gcp.thehlive.com/AJM/index.m3u8
+#EXTINF:-1 tvg-id="aljazeeradocument" tvg-name="الجزيرة الوثائقية" tvg-logo="" group-title="قنوات قطر - الجزيرة",الجزيرة الوثائقية
+aljazeeradocument
+#EXTINF:-1 tvg-id="aljazeeradoc1" tvg-name="الجزيرة الوثائقية" tvg-logo="" group-title="قنوات قطر - الجزيرة",الجزيرة الوثائقية
+https://games2.elahmad.store/tv13_www_elahmad._aljazeera_doc/index.m3u8?token=3e986e9f77b27f64feda0e6aeee007a6af51d643-f650a6d0e9dd2a4508d2c946b5dfb555-1788001456-1787999656
+#EXTINF:-1 tvg-id="aljazeeradoc2" tvg-name="الجزيرة الوثائقية" tvg-logo="" group-title="قنوات قطر - الجزيرة",الجزيرة الوثائقية
+https://live-hls-web-ajd-gcp.thehlive.com/AJD/index.m3u8
+#EXTINF:-1 tvg-id="qatartv1" tvg-name="قناة قطر" tvg-logo="" group-title="قنوات قطر - الجزيرة",قناة قطر
+https://qatartv.akamaized.net/hls/live/20000609/qtv1/master.m3u8?v=9e45ccfa
+#EXTINF:-1 tvg-id="qatar" tvg-name="قناة قطر" tvg-logo="" group-title="قنوات قطر - الجزيرة",قناة قطر
+qatar
+#EXTINF:-1 tvg-id="qatartv2" tvg-name="قناة قطر2" tvg-logo="" group-title="قنوات قطر - الجزيرة",قناة قطر2
+https://qatartv.akamaized.net/hls/live/20000611/qtv2/master.m3u8?v=9e45ccfa
+#EXTINF:-1 tvg-id="alrayyan1" tvg-name="قناة الريان" tvg-logo="" group-title="قنوات قطر - الجزيرة",قناة الريان
+https://alrayyancdn.vidgyor.com/pub-noalrayy3pwz0l/liveabr/playlist_dvr.m3u8?v=9e45ccfa
+#EXTINF:-1 tvg-id="al_rayyan2_1" tvg-name="الريان القديم" tvg-logo="" group-title="قنوات قطر - الجزيرة",الريان القديم
+https://alrayyancdn.vidgyor.com/pub-nooldraybinbdh/liveabr/playlist_dvr.m3u8?v=9e45ccfa
+#EXTINF:-1 tvg-id="alarabytv" tvg-name="Al Araby TV" tvg-logo="" group-title="قنوات قطر - الجزيرة",Al Araby TV
+https://live.kwikmotion.com/alaraby1live/alaraby_abr/playlist.m3u8?orig=arabic
+#EXTINF:-1 tvg-id="alaraby_tv" tvg-name="Al Araby TV" tvg-logo="" group-title="قنوات قطر - الجزيرة",Al Araby TV
+https://live.kwikmotion.com/alaraby1live/alaraby_abr/playlist.m3u8?orig=arabic
+#EXTINF:-1 tvg-id="alaraby_2" tvg-name="Al Araby TV 2" tvg-logo="" group-title="قنوات قطر - الجزيرة",Al Araby TV 2
+https://live.kwikmotion.com/alaraby2live/alaraby2.smil/playlist.m3u8?orig=arabic
+#EXTINF:-1 tvg-id="one_1" tvg-name="Alkass One" tvg-logo="" group-title="قنوات قطر - الجزيرة",Alkass One
+one_1
+#EXTINF:-1 tvg-id="2" tvg-name="Alkass Two" tvg-logo="" group-title="قنوات قطر - الجزيرة",Alkass Two
+2
+#EXTINF:-1 tvg-id="3" tvg-name="Alkass Three" tvg-logo="" group-title="قنوات قطر - الجزيرة",Alkass Three
+3
+#EXTINF:-1 tvg-id="4" tvg-name="Alkass Four" tvg-logo="" group-title="قنوات قطر - الجزيرة",Alkass Four
+4
+#EXTINF:-1 tvg-id="5" tvg-name="Alkass Five" tvg-logo="" group-title="قنوات قطر - الجزيرة",Alkass Five
+5
+#EXTINF:-1 tvg-id="al_jazeera_english1" tvg-name="Al Jazeera English" tvg-logo="" group-title="قنوات قطر - الجزيرة",Al Jazeera English
+https://live-hls-web-aje-gcp.thehlive.com/AJE/index.m3u8
+#EXTINF:-1 tvg-id="aljazeeraenglish" tvg-name="Al Jazeera English" tvg-logo="" group-title="قنوات قطر - الجزيرة",Al Jazeera English
+aljazeeraenglish
+#EXTINF:-1 tvg-id="aljazeera_balkans1" tvg-name="Al Jazeera Balkans" tvg-logo="" group-title="قنوات قطر - الجزيرة",Al Jazeera Balkans
+https://live-hls-web-aje-gcp.thehlive.com/AJE/index.m3u8
+#EXTINF:-1 tvg-id="baraem" tvg-name="قناة براعم" tvg-logo="" group-title="قنوات قطر - الجزيرة",قناة براعم
+https://games1.elahmad.store/tv13_www_elahmad._baraem1/index.m3u8?token=6fbba98edfb35ee21d9a4623768939e672abe35f-dd0c42c789ff787588881dff57041eae-1788001476-1787999676
+#EXTINF:-1 tvg-id="jscc1" tvg-name="تلفزيون جيم" tvg-logo="" group-title="قنوات قطر - الجزيرة",تلفزيون جيم
+https://games1.elahmad.store/tv13_www_elahmad._jeem/index.m3u8?token=108805f92b3f7b35324ce03a8143a7561591d244-b7e7b0385219fe32ed2e263f6229d057-1788001477-1787999677
+#EXTINF:-1 tvg-id="aljazeerachannel" tvg-name="قناة الجزيرة" tvg-logo="" group-title="قنوات قطر - الجزيرة",قناة الجزيرة
+https://www.elahmad.ru/tv/youtube.php?id=aljazeerachannel
+#EXTINF:-1 tvg-id="aljazeeramubasher" tvg-name="الجزيرة مباشر" tvg-logo="" group-title="قنوات قطر - الجزيرة",الجزيرة مباشر
+https://www.elahmad.ru/tv/youtube.php?id=aljazeeramubasher
+#EXTINF:-1 tvg-id="aljazeera_live" tvg-name="الجزيرة مباشر" tvg-logo="" group-title="قنوات قطر - الجزيرة",الجزيرة مباشر
+https://www.elahmad.ru/tv/youtube.php?id=aljazeera_live
+#EXTINF:-1 tvg-id="aljazeera_mubasher_24" tvg-name="Mubasher 24" tvg-logo="" group-title="قنوات قطر - الجزيرة",Mubasher 24
+https://www.elahmad.ru/tv/youtube.php?id=aljazeera_mubasher_24
+#EXTINF:-1 tvg-id="mubasherqatar" tvg-name="مباشر قطر" tvg-logo="" group-title="قنوات قطر - الجزيرة",مباشر قطر
+https://www.elahmad.ru/tv/youtube.php?id=mubasherqatar
+#EXTINF:-1 tvg-id="AlJazeeraEnglish" tvg-name="Al Jazeera English" tvg-logo="" group-title="قنوات قطر - الجزيرة",Al Jazeera English
+https://www.elahmad.ru/tv/youtube.php?id=AlJazeeraEnglish
+#EXTINF:-1 tvg-id="aljazeera_balkans" tvg-name="Al Jazeera Balkans" tvg-logo="" group-title="قنوات قطر - الجزيرة",Al Jazeera Balkans
+https://www.elahmad.ru/tv/youtube.php?id=aljazeera_balkans

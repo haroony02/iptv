@@ -1,0 +1,65 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="iran_international" tvg-name="Iran International" tvg-logo="" group-title="قنوات عربية عالمية",Iran International
+https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8
+#EXTINF:-1 tvg-id="qaftv" tvg-name="Qaf Tv" tvg-logo="" group-title="قنوات عربية عالمية",Qaf Tv
+https://customer-9vqui33qma2rownb.cloudflarestream.com/7792e558fe54e23bdd4b462ec275cdba/manifest/video.m3u8
+#EXTINF:-1 tvg-id="islamchannel" tvg-name="Islam TV" tvg-logo="" group-title="قنوات عربية عالمية",Islam TV
+https://raw.elahmad.net/https://live.islamchannel.tv/live11/islamtv_english/bitrate1.isml/live.m3u8?v=9e45ccfa
+#EXTINF:-1 tvg-id="peacetv_english" tvg-name="Peace USA" tvg-logo="" group-title="قنوات عربية عالمية",Peace USA
+https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
+#EXTINF:-1 tvg-id="alhurra" tvg-name="Alhurra TV" tvg-logo="" group-title="قنوات عربية عالمية",Alhurra TV
+https://mbn-ingest-worldsafe.akamaized.net/hls/live/2038900/MBN_Alhurra_Worldsafe_HLS/merge.m3u8?v=9e45ccfa
+#EXTINF:-1 tvg-id="alhiwar" tvg-name="Al Hiwar TV" tvg-logo="" group-title="قنوات عربية عالمية",Al Hiwar TV
+alhiwar
+#EXTINF:-1 tvg-id="alhiwar1" tvg-name="Al Hiwar TV" tvg-logo="" group-title="قنوات عربية عالمية",Al Hiwar TV
+https://mn-nl.mncdn.com/alhiwar_live/smil:alhiwar.smil/playlist.m3u8?v=9e45ccfa
+#EXTINF:-1 tvg-id="trt_arabic1" tvg-name="TRT Arabi" tvg-logo="" group-title="قنوات عربية عالمية",TRT Arabi
+https://tv-trtarabi.medya.trt.com.tr/master.m3u8?v=9e45ccfa
+#EXTINF:-1 tvg-id="dwtvarabia" tvg-name="DW Arabic" tvg-logo="" group-title="قنوات عربية عالمية",DW Arabic
+dwtvarabia
+#EXTINF:-1 tvg-id="DWelle1" tvg-name="DW Arabic" tvg-logo="" group-title="قنوات عربية عالمية",DW Arabic
+https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8
+#EXTINF:-1 tvg-id="bbcarabic" tvg-name="BBC Arabic" tvg-logo="" group-title="قنوات عربية عالمية",BBC Arabic
+bbcarabic
+#EXTINF:-1 tvg-id="bbcarab_ar1" tvg-name="BBC Arabic" tvg-logo="" group-title="قنوات عربية عالمية",BBC Arabic
+https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.m3u8
+#EXTINF:-1 tvg-id="france24arabic" tvg-name="France24 Arabic" tvg-logo="" group-title="قنوات عربية عالمية",France24 Arabic
+france24arabic
+#EXTINF:-1 tvg-id="cctvarabia" tvg-name="CGTN Arabic" tvg-logo="" group-title="قنوات عربية عالمية",CGTN Arabic
+cctvarabia
+#EXTINF:-1 tvg-id="cgtn_arabic" tvg-name="CGTN Arabic" tvg-logo="" group-title="قنوات عربية عالمية",CGTN Arabic
+https://arabic-livews.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8
+#EXTINF:-1 tvg-id="alalam1" tvg-name="Al Alam News" tvg-logo="" group-title="قنوات عربية عالمية",Al Alam News
+https://raw.elahmad.net/https://live2.alalam.ir/live/Alalam_low/index.m3u8
+#EXTINF:-1 tvg-id="alalam2" tvg-name="Al Alam News" tvg-logo="" group-title="قنوات عربية عالمية",Al Alam News
+https://live2.alalam.ir/live/Alalam_high/index.m3u8
+#EXTINF:-1 tvg-id="alalamsyria" tvg-name="Alalam Syria" tvg-logo="" group-title="قنوات عربية عالمية",Alalam Syria
+https://live2.presstv.ir/live/alam/playlist.m3u8
+#EXTINF:-1 tvg-id="almasirah_tv" tvg-name="Al Masirah TV" tvg-logo="" group-title="قنوات عربية عالمية",Al Masirah TV
+https://live.cdnbridge.tv/Almasirah/Almasirah_all/playlist.m3u8
+#EXTINF:-1 tvg-id="cnn" tvg-name="CNN Mews" tvg-logo="" group-title="قنوات عربية عالمية",CNN Mews
+cnn
+#EXTINF:-1 tvg-id="cnn1" tvg-name="CNN Mews" tvg-logo="" group-title="قنوات عربية عالمية",CNN Mews
+https://cnn-cnninternational-1-gb.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="cnn2" tvg-name="CNN Mews" tvg-logo="" group-title="قنوات عربية عالمية",CNN Mews
+https://tve-live-lln.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8?v=9e45ccfa
+#EXTINF:-1 tvg-id="foxnews" tvg-name="Fox News" tvg-logo="" group-title="قنوات عربية عالمية",Fox News
+https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="presstv_en" tvg-name="Press tv" tvg-logo="" group-title="قنوات عربية عالمية",Press tv
+https://live.presstv.co.uk/hls/presstv.m3u8?v=9e45ccfa
+#EXTINF:-1 tvg-id="almaareftv" tvg-name="Al Maarif" tvg-logo="" group-title="قنوات عربية عالمية",Al Maarif
+https://bucharest.zeuscdn724.com/lb0/CH-AL-MA/index.m3u8
+#EXTINF:-1 tvg-id="almagharibia" tvg-name="Al Magharibia" tvg-logo="" group-title="قنوات عربية عالمية",Al Magharibia
+https://www.elahmad.ru/tv/youtube.php?id=almagharibia
+#EXTINF:-1 tvg-id="skynews" tvg-name="Sky News" tvg-logo="" group-title="قنوات عربية عالمية",Sky News
+https://www.elahmad.ru/tv/youtube.php?id=skynews
+#EXTINF:-1 tvg-id="alhiwarchannel" tvg-name="Al Hiwar TV" tvg-logo="" group-title="قنوات عربية عالمية",Al Hiwar TV
+https://www.elahmad.ru/tv/youtube.php?id=alhiwarchannel
+#EXTINF:-1 tvg-id="france24_ar" tvg-name="France24 Arabic" tvg-logo="" group-title="قنوات عربية عالمية",France24 Arabic
+https://www.elahmad.ru/tv/youtube.php?id=france24_ar
+#EXTINF:-1 tvg-id="france24_fr" tvg-name="France24 Fr" tvg-logo="" group-title="قنوات عربية عالمية",France24 Fr
+https://www.elahmad.ru/tv/youtube.php?id=france24_fr
+#EXTINF:-1 tvg-id="france24_en" tvg-name="France24 En" tvg-logo="" group-title="قنوات عربية عالمية",France24 En
+https://www.elahmad.ru/tv/youtube.php?id=france24_en
+#EXTINF:-1 tvg-id="france24_es" tvg-name="France24 Es" tvg-logo="" group-title="قنوات عربية عالمية",France24 Es
+https://www.elahmad.ru/tv/youtube.php?id=france24_es

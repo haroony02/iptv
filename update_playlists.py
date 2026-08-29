@@ -26,7 +26,7 @@ if sys.platform == 'win32':
 BASE = "https://www.elahmad.ru/tv"
 OUTPUT_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# Channel categories
+# Channel categories with English filenames
 POPULAR_CATEGORIES = OrderedDict([
     ("qatar", "قنوات قطر - الجزيرة"),
     ("saudi", "قنوات السعودية - SBC وMBC والرياضية"),
@@ -47,6 +47,27 @@ POPULAR_CATEGORIES = OrderedDict([
     ("algeria", "قنوات الجزائر"),
     ("turkish_tv", "قنوات تركية"),
 ])
+
+# Mapping for simple English filenames
+CATEGORY_FILENAME_MAP = {
+    "قنوات قطر - الجزيرة": "qatar_channels",
+    "قنوات السعودية - SBC وMBC والرياضية": "saudi_channels",
+    "قنوات الامارات - دبي وابوظبي": "uae_channels",
+    "قنوات مصرية - CBC وON وAlNahartv": "egypt_channels",
+    "قنوات ام بي سي MBC Group": "mbc_channels",
+    "قنوات روتانا Rotana Group": "rotana_channels",
+    "قنوات ART Group": "art_channels",
+    "قنوات رياضية - BeIN وSSC وغيرها": "sports_channels",
+    "شبكة المجد الفضائية Almajd": "almajd_channels",
+    "قنوات اطفال Kids TV": "kids_channels",
+    "قنوات عربية عالمية": "arabic_channels",
+    "قنوات الاردن": "jordan_channels",
+    "قنوات لبنان": "lebanon_channels",
+    "قنوات الكويت": "kuwait_channels",
+    "قنوات المغرب": "morocco_channels",
+    "قنوات تونس": "tunisia_channels",
+    "قنوات الجزائر": "algeria_channels",
+}
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
@@ -422,6 +443,29 @@ def create_channel_links_html(channels, filename):
     print(f"Created channel links HTML: {filename}")
     return p
 
+def create_category_files_summary(by_cat, filename):
+    """Create a summary file with all category playlist links"""
+    lines = []
+    lines.append("# Category Playlist Files")
+    lines.append(f"# Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    lines.append(f"# Total Categories: {len(by_cat)}")
+    lines.append("# Format: Category Name | Filename | Channel Count")
+    lines.append("=" * 80)
+    
+    for cat_name, cat_chs in sorted(by_cat.items()):
+        if cat_name in CATEGORY_FILENAME_MAP:
+            filename_key = f"{CATEGORY_FILENAME_MAP[cat_name]}.m3u"
+        else:
+            filename_key = f"{safe_filename(cat_name)}.m3u"
+        
+        lines.append(f"{cat_name} | {filename_key} | {len(cat_chs)} channels")
+    
+    p = os.path.join(OUTPUT_DIR, filename)
+    with open(p, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+    print(f"Created category files summary: {filename}")
+    return p
+
 def main():
     """Main function"""
     os.chdir(OUTPUT_DIR)
@@ -492,14 +536,19 @@ def main():
             build_m3u(only_real, "elahmad_live_real_streams.m3u")
             print(f"Created M3U file with real URLs: {len(only_real)} channels")
             
-            # Build per-category files
+            # Build per-category files with English names
             by_cat = {}
             for c in only_real:
                 by_cat.setdefault(c["category"], []).append(c)
             
             for cat_name, cat_chs in by_cat.items():
-                fn = safe_filename(cat_name)
-                build_m3u(cat_chs, f"elahmad_{fn.replace(' ', '_')}_REAL_HLS.m3u")
+                # Use English filename mapping if available, otherwise use safe filename
+                if cat_name in CATEGORY_FILENAME_MAP:
+                    filename = f"{CATEGORY_FILENAME_MAP[cat_name]}.m3u"
+                else:
+                    filename = f"{safe_filename(cat_name)}.m3u"
+                build_m3u(cat_chs, filename)
+                print(f"Created category file: {filename} ({len(cat_chs)} channels)")
     else:
         print("\n[2/3] Skipping decryption - using initial links")
         only_real = all_channels
@@ -515,6 +564,23 @@ def main():
         create_channel_links_file(only_real, "channel_links.txt")
         create_channel_links_json(only_real, "channel_links.json")
         create_channel_links_html(only_real, "channel_links.html")
+        
+        # Build per-category files with English names
+        by_cat = {}
+        for c in only_real:
+            by_cat.setdefault(c["category"], []).append(c)
+        
+        for cat_name, cat_chs in by_cat.items():
+            # Use English filename mapping if available, otherwise use safe filename
+            if cat_name in CATEGORY_FILENAME_MAP:
+                filename = f"{CATEGORY_FILENAME_MAP[cat_name]}.m3u"
+            else:
+                filename = f"{safe_filename(cat_name)}.m3u"
+            build_m3u(cat_chs, filename)
+            print(f"Created category file: {filename} ({len(cat_chs)} channels)")
+        
+        # Create category files summary
+        create_category_files_summary(by_cat, "category_files.txt")
     
     # Save summary
     summary = {

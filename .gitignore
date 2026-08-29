@@ -57,3 +57,6 @@ BUNDLE_*.m3u
 CLEAN_*.m3u
 ELAHMAD_TOP_BUNDLES_CLEAN.m3u
 ELAHMAD_CLEAN_SUMMARY.json
+
+# Keep category files
+!*_channels.m3u
