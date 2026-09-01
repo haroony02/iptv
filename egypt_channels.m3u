@@ -1,154 +1,114 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="cima" tvg-name="Cima TV" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Cima TV
-cima
-#EXTINF:-1 tvg-id="art_cima" tvg-name="Cima TV" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Cima TV
-art_cima
 #EXTINF:-1 tvg-id="safatv" tvg-name="Safa TV" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Safa TV
-https://games1.elahmad.store/tv14_www_elahmad._safatv/index.m3u8?token=fb812aa532469508b5b080cc2bc9cb2bcc15a9be-045c451b9f9c9e792fad7eae7ffa3883-1788251478-1788249678
+https://games1.elahmad.store/tv14_www_elahmad._safatv/index.m3u8?token=55036b7559253f0aae287bb34d4d68135ca3607b-22654965ceaddde79513dff9704006ca-1788261899-1788260099
 #EXTINF:-1 tvg-id="elnastv" tvg-name="Elnas TV" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Elnas TV
-https://games2.elahmad.store/tv14_www_elahmad._elnastv/index.m3u8?token=63f2bf378f84bb8e3bc487add36b3b3dd7b79c4e-500be2d489bfb902b5a349a666a06943-1788251479-1788249679
+https://games2.elahmad.store/tv14_www_elahmad._elnastv/index.m3u8?token=08b82413cfbd8e714e4095f36f59d3b41ff68f3f-34210aee269815df471090db1b3fc7d0-1788261901-1788260101
 #EXTINF:-1 tvg-id="alrahma_1" tvg-name="Al Rahma" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Al Rahma
-https://games1.elahmad.store/tv14_www_elahmad._alrahma/index.m3u8?token=4d1dae47cfda13cc692d356be6045d49950bf1ec-918e0eb06531fe81e25fb81e339f7a16-1788251480-1788249680
+https://games1.elahmad.store/tv14_www_elahmad._alrahma/index.m3u8?token=c1f3044ad4b3cc44247d44c0902e26b7b30a8167-f009a456887464cdce2dd586f3add1f7-1788261902-1788260102
 #EXTINF:-1 tvg-id="elsharqtv1" tvg-name="El Sharq" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",El Sharq
 https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8
-#EXTINF:-1 tvg-id="elsharqtv2" tvg-name="El Sharq" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",El Sharq
-/tv/m3u8/akamaihd.m3u8?id=elsharq
 #EXTINF:-1 tvg-id="alfath_tv" tvg-name="Alfath TV" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Alfath TV
 https://alfat7-q.com:5443/LiveApp/streams/540800031500976828779975.m3u8
 #EXTINF:-1 tvg-id="watanegypt" tvg-name="Watan TV" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Watan TV
 https://rp.tactivemedia.com/watantv_source/live/playlist.m3u8?v=9e45ccfa
 #EXTINF:-1 tvg-id="egypt_channel1" tvg-name="ERTU 1" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",ERTU 1
-https://games1.elahmad.store/tv14_www_elahmad._channel1_eg/index.m3u8?token=0ae6906c52eeeab545b67103dae1d8aa062405b1-aeb5283c975a47ed9f1570ea46e34f81-1788251484-1788249684
+https://games1.elahmad.store/tv14_www_elahmad._channel1_eg/index.m3u8?token=061440e277537f6a6603111a889cfb4015d55957-314886456362b174ecc887f70e3ee7e6-1788261909-1788260109
 #EXTINF:-1 tvg-id="almasriyah" tvg-name="Al Masriyah" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Al Masriyah
-https://games1.elahmad.store/tv14_www_elahmad._almasriyah/index.m3u8?token=d7fd8737c1f96d51847835e59dd8f49f45d762a0-61853d3ad481893ef0fe4df628857f65-1788251485-1788249685
+https://games1.elahmad.store/tv14_www_elahmad._almasriyah/index.m3u8?token=8edf28ac65fdd0f3007e016468fc5f5b3c180b0e-4eab3e7289d1e9bc02171a857ecbf1e8-1788261910-1788260110
 #EXTINF:-1 tvg-id="al_thaniya" tvg-name="ERTU 2" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",ERTU 2
-https://games1.elahmad.store/tv14_www_elahmad._al_thaniya_eg/index.m3u8?token=a80c45d939ab8d64bcacc5a35c1b980b0c6f1fea-0eca4c1440f320f545e973e6fb993ef7-1788251486-1788249686
+https://games1.elahmad.store/tv14_www_elahmad._al_thaniya_eg/index.m3u8?token=b979797b235763ce1872d4124c246046c214bda3-de5b6709292aa5b05d11bb8fb84577f0-1788261912-1788260112
 #EXTINF:-1 tvg-id="egyptian_tv" tvg-name="Egyptian Tv" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Egyptian Tv
-https://games1.elahmad.store/tv14_www_elahmad._egyptian_tv/index.m3u8?token=61919dfb79037c6c5ca3ae9cf4b50ec760464fa6-1be7a46ccd22f5f6999ffba16d77d58b-1788251486-1788249686
-#EXTINF:-1 tvg-id="mekameleen" tvg-name="Mekameleen" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Mekameleen
-mekameleen
+https://games1.elahmad.store/tv14_www_elahmad._egyptian_tv/index.m3u8?token=5fdbf6a810e3b528bca29698ea9f71744d7832ac-17964944246463cdf0287cd0ec34f097-1788261913-1788260113
 #EXTINF:-1 tvg-id="mekameleen_tv1" tvg-name="Mekameleen" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Mekameleen
 https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8?v=9e45ccfa
 #EXTINF:-1 tvg-id="mekameleen_tv2" tvg-name="Mekameleen" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Mekameleen
 https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/chunklist_b2128000.m3u8?v=9e45ccfa
-#EXTINF:-1 tvg-id="alnahar" tvg-name="Al-Nahar" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Al-Nahar
-alnahar
 #EXTINF:-1 tvg-id="nahar_tv1" tvg-name="Al-Nahar" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Al-Nahar
-https://games2.elahmad.store/tv14_www_elahmad._nahar_tv/index.m3u8?token=d59d02e0ae21f20e5c484708cfcb5ca0deb141a7-435adcb35f666b7d53552555ebf10862-1788251490-1788249690
+https://games2.elahmad.store/tv14_www_elahmad._nahar_tv/index.m3u8?token=09cd9f3ae0eab797165d634506e35149acfc6690-5e67ffd04254e259ae69fba1b206bea3-1788261917-1788260117
 #EXTINF:-1 tvg-id="nahar_drama1" tvg-name="Al-Nahar Drama" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Al-Nahar Drama
-https://games2.elahmad.store/tv14_www_elahmad._nahar_drama/index.m3u8?token=51da5557fa25426b1a6f7b0cd1386104e853b1bb-5353ddf1c6d389af2cf43efa302c2e86-1788251491-1788249691
-#EXTINF:-1 tvg-id="alnahardrama" tvg-name="Al-Nahar Drama" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Al-Nahar Drama
-alnahardrama
+https://games2.elahmad.store/tv14_www_elahmad._nahar_drama/index.m3u8?token=4b86d6961469c4b1be5771f7abb4e0c296b8575e-2861300944e14e9244c2da9d53d9babd-1788261918-1788260118
 #EXTINF:-1 tvg-id="nahar_life" tvg-name="Al-Nahar Life" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Al-Nahar Life
-https://games2.elahmad.store/tv14_www_elahmad._nahar_life/index.m3u8?token=0dab6cb39143354befca8789e942d084f58a9c3f-ed1564193be9ba9e89719301965745f1-1788251493-1788249693
+https://games2.elahmad.store/tv14_www_elahmad._nahar_life/index.m3u8?token=9534db0180808e8fab1eecbd8380dd2b43ec5dfb-d54f942d36e527e389588f3471bf8f2e-1788261920-1788260120
 #EXTINF:-1 tvg-id="sadaelbalad" tvg-name="Sada Elbalad" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Sada Elbalad
-https://games2.elahmad.store/tv14_www_elahmad._elbaladtv/index.m3u8?token=ac92cc2124598dd390cc00051c6db38756194157-ba8325a7238b2449c1c62557204dd594-1788251494-1788249694
+https://games2.elahmad.store/tv14_www_elahmad._elbaladtv/index.m3u8?token=f8c7e65cd855fa8a4a41f5424c18977bd8e296a6-6645b6120c2bdee9475f476878c68c0e-1788261922-1788260122
 #EXTINF:-1 tvg-id="elbaladtv2" tvg-name="Sada Elbalad2" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Sada Elbalad2
-https://games2.elahmad.store/tv14_www_elahmad._elbalad_2/index.m3u8?token=eaeec98432a5af058923eabe6402f9dd07f2be41-e2285a2c9b10fbd9a63e70be55fa0a39-1788251495-1788249695
-#EXTINF:-1 tvg-id="sadadrama" tvg-name="Sada Elbalad Drama" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Sada Elbalad Drama
-https://games2.elahmad.store/tv14_www_elahmad._elbalad_drama/index.m3u8?token=33c6be4595c5127f1f4d7d876a82de233685a989-76be8e5003988f3ab6fde2cf92ac0632-1788251495-1788249695
+https://games2.elahmad.store/tv14_www_elahmad._elbalad_2/index.m3u8?token=046cbf4fa121a2c662dc02230eef38fa6aaf2bc5-256af3d40dc4d7828694ace87d46267b-1788261923-1788260123
 #EXTINF:-1 tvg-id="alkaherawalnas1" tvg-name="AlKahera WalNas" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",AlKahera WalNas
-https://games2.elahmad.store/tv14_www_elahmad._alkaherawalnas1/index.m3u8?token=283ed3401d9fdddebd1c4e74680533cec1bfd1e0-3bd62b647b37698907e2e9dc5d139efe-1788251496-1788249696
-#EXTINF:-1 tvg-id="alkaherawalnas2" tvg-name="AlKahera WalNas2" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",AlKahera WalNas2
-https://games2.elahmad.store/tv14_www_elahmad._alkaherawalnas2/index.m3u8?token=6a5f03352e263337c82c8ba7745bf940114e0410-5417cdbe018201231f628bdc467ec485-1788251497-1788249697
+https://games2.elahmad.store/tv14_www_elahmad._alkaherawalnas1/index.m3u8?token=806c9f055459befe161c7a28a1fac9185322e036-d9a874c4f0888bfc9e9c9f8e64063c7e-1788261927-1788260127
 #EXTINF:-1 tvg-id="dmc_live_tv" tvg-name="dmc Live" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",dmc Live
-https://games1.elahmad.store/tv14_www_elahmad._dmc/index.m3u8?token=51f191ead17af81d758243a3b7d010f5ec5025bc-4896d3b81f16a1045c66186a52335dbe-1788251498-1788249698
+https://games1.elahmad.store/tv14_www_elahmad._dmc/index.m3u8?token=c00e758dfa4cbc2569c4d59d3d6a0f7dff828cf8-0c409378f3b5d6bec1c27d8d7195777b-1788261928-1788260128
 #EXTINF:-1 tvg-id="dmc" tvg-name="dmc Live" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",dmc Live
-dmc
+https://games1.elahmad.store/tv14_www_elahmad._dmc/index.m3u8?token=5966a014a5774ba8a218e253b948bea9b958a21d-a09bbe9c732673fceba82150502ee0cd-1788261930-1788260130
 #EXTINF:-1 tvg-id="dmc_drama_tv" tvg-name="dmc Drama" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",dmc Drama
-https://games1.elahmad.store/tv14_www_elahmad._dmc_drama/index.m3u8?token=99686156f1b09f54ec0ec99f910b19ee2549e551-26fa8584997acbe558a5a0f7563a9dec-1788251500-1788249700
-#EXTINF:-1 tvg-id="on_tv_eg" tvg-name="ON Ent" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",ON Ent
-on_tv_eg
+https://games1.elahmad.store/tv14_www_elahmad._dmc_drama/index.m3u8?token=c336af408e2e95be267dbeea8275a691ee31e686-b82410f107e856cf6f167123720ba442-1788261931-1788260131
+#EXTINF:-1 tvg-id="dmc_drama" tvg-name="dmc Drama" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",dmc Drama
+https://games1.elahmad.store/tv14_www_elahmad._dmc_drama/index.m3u8?token=79d7b3e41201444bd62937b77e7c8a03f6c3eb13-70c79cae342f84b5c6a233e641480f83-1788261933-1788260133
 #EXTINF:-1 tvg-id="ontv1" tvg-name="ON Ent" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",ON Ent
-https://games1.elahmad.store/tv14_www_elahmad._ontv/index.m3u8?token=f8f5539e91f92388c9f8fdcd2f6b7542ded55b63-6dae0493b681d8b62bd247bb09f9679c-1788251502-1788249702
+https://games1.elahmad.store/tv14_www_elahmad._ontv/index.m3u8?token=b1e63cb4a785132c016cd9a314bb76471f313259-1960f44b6befdc60b50cd7e4a76b73f5-1788261934-1788260134
 #EXTINF:-1 tvg-id="on_drama" tvg-name="ON Drama" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",ON Drama
-https://games1.elahmad.store/tv14_www_elahmad._on_drama/index.m3u8?token=38962c2f76cddf451b3d69bf212a3a03be7dd04e-d0ad2587ee8f385c0105d15512c621b9-1788251503-1788249703
-#EXTINF:-1 tvg-id="on_sport" tvg-name="ON Sport" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",ON Sport
-https://games1.elahmad.store/tv14_www_elahmad._on_sport/index.m3u8?token=940692b4988ae9a01838f63a5ccd18ed7a7d6b85-1f57d50d9f226714621040d2080e65ca-1788251504-1788249704
+https://games1.elahmad.store/tv14_www_elahmad._on_drama/index.m3u8?token=fd523cf2d3c8b123f677e4420e3fc4a5430a1d8f-f95007993a0b459ebc3cdffa7d608f0a-1788261936-1788260136
 #EXTINF:-1 tvg-id="on_time_sports1" tvg-name="OnTime Sports1" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",OnTime Sports1
-https://games1.elahmad.store/tv14_www_elahmad._on_sport/index.m3u8?token=b02a8aeb501cd0043e152a3d04bcac2aed15e40d-05e29595d15aa55ea44931e867469cca-1788251505-1788249705
+https://games1.elahmad.store/tv14_www_elahmad._on_sport/index.m3u8?token=6aadbc7b15264de4269ac7cb767a4118f47587d4-5641ab9d95d90e14dc55dd618be6fd77-1788261938-1788260138
 #EXTINF:-1 tvg-id="on_time_sports2" tvg-name="OnTime Sports2" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",OnTime Sports2
-https://games1.elahmad.store/tv14_www_elahmad._on_sport2/index.m3u8?token=46984ae2a276f36192b750cac7b35845520d2055-89891e998d745f3a7bbeaca6d0254465-1788251506-1788249706
+https://games1.elahmad.store/tv14_www_elahmad._on_sport2/index.m3u8?token=fc6e21b60b75400133b8e2e8e8262ffc3f1f3e09-866ccaf2f539f53ad40a20e8b8dccdf0-1788261939-1788260139
 #EXTINF:-1 tvg-id="alshamstv" tvg-name="Al Shams" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Al Shams
-https://games2.elahmad.store/tv14_www_elahmad._alshamstv/index.m3u8?token=303ab84cbba1d6e7dde6373abc6e3e20924ab807-ca048c15db33565c62d56d010e7cbb0f-1788251507-1788249707
+https://games2.elahmad.store/tv14_www_elahmad._alshamstv/index.m3u8?token=38ef6c4b64434a20a20c49c4d400f7d0e9e4bd46-7ae8dbea1fb6f854ac9e1d3146a161f9-1788261941-1788260141
 #EXTINF:-1 tvg-id="alwathaeqya" tvg-name="AlWathaeqya" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",AlWathaeqya
-https://games1.elahmad.store/tv14_www_elahmad._alwathaeqya/index.m3u8?token=6f50312819fc209c9bb3c741b22c301031cabb63-e5d50c5b464a86e91446128a689d18de-1788251508-1788249708
+https://games1.elahmad.store/tv14_www_elahmad._alwathaeqya/index.m3u8?token=932481441d3b271ad166ad0e6506fd5b93cd2400-85f8048430800ac87d8cb08086c32b38-1788261942-1788260142
 #EXTINF:-1 tvg-id="MasperoZaman" tvg-name="Maspero Zaman" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Maspero Zaman
-https://games2.elahmad.store/tv14_www_elahmad._MasperoZaman/index.m3u8?token=a2075e27bbcc2da27989b40579e59f35f4901011-2c28230594c62fa757d55220876317e9-1788251508-1788249708
+https://games2.elahmad.store/tv14_www_elahmad._MasperoZaman/index.m3u8?token=bd1a5a52db5f344f4c1c75170e202cbc8f38f54d-d8de02b222e2a04d237de4ecb0b6a2a6-1788261944-1788260144
 #EXTINF:-1 tvg-id="alhadath_alyoum" tvg-name="AlHadath Alyoum" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",AlHadath Alyoum
-https://games1.elahmad.store/tv14_www_elahmad._alhadath_alyoum/index.m3u8?token=e6e06229d4692dd85ecce0c51724fafdc0d924df-36910b55009e21f80cf1910de6fc2812-1788251509-1788249709
-#EXTINF:-1 tvg-id="alshoobtv" tvg-name="Alshoub TV" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Alshoub TV
-https://play.tactivemedia.com/memfs/c5919b97-5329-4b84-91b2-613c6ed9953e.m3u8
-#EXTINF:-1 tvg-id="cbc" tvg-name="CBC Egypt" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",CBC Egypt
-cbc
+https://games1.elahmad.store/tv14_www_elahmad._alhadath_alyoum/index.m3u8?token=cae5e37dc9baa7a44f03b8883a55cb157a3204c7-1c5b611ed591d4523ee1281b7c3bb578-1788261945-1788260145
 #EXTINF:-1 tvg-id="cbc_tv" tvg-name="CBC Egypt" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",CBC Egypt
 https://fastly.live.brightcove.com/1843521364865282260/eu-central-1/6057955906001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiYXltc3VjLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTkwNjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1OTA2MDAxIl0sImp0aSI6IjE4NDM1MjEzNjQ4NjUyODIyNjAifQ.0dAr9XfheySFlNSKyHmeaasEMRIr-eZhJXZkoB1nzu4/playlist-hls.m3u8
-#EXTINF:-1 tvg-id="cbc_drama" tvg-name="CBC Drama" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",CBC Drama
-https://games2.elahmad.store/tv14_www_elahmad._cbc_drama/index.m3u8?token=25046dfcdc7c24d1bff2d74a4f4e148f19575b1c-b735af964473b4ea5b6d79824d093271-1788251513-1788249713
 #EXTINF:-1 tvg-id="cbc_extranews" tvg-name="Extra News" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Extra News
-https://games2.elahmad.store/tv14_www_elahmad._cbc_news/index.m3u8?token=dd53baf1aa53f4c6686a440db7a6d38979e3c7c1-d0b1be8a023fdc4020480dc0f09135c0-1788251514-1788249714
+https://games2.elahmad.store/tv14_www_elahmad._cbc_news/index.m3u8?token=46df62fd1ad335bccfd7c3931596007671c8b943-c4d869737ce1551ea50d1b39bb079e16-1788261950-1788260150
 #EXTINF:-1 tvg-id="cbc_sofra" tvg-name="CBC Sofra" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",CBC Sofra
-https://games2.elahmad.store/tv14_www_elahmad._cbc_sofra/index.m3u8?token=04d9ad533204854b482182d942fbfaa0e721c1fc-e06a043911925239d10a42a9b3dbb457-1788251515-1788249715
+https://games2.elahmad.store/tv14_www_elahmad._cbc_sofra/index.m3u8?token=b87dcf16277c32691355e3ceb677948ffffc2697-e133de870ef72419784799d6c9bd82d7-1788261952-1788260152
 #EXTINF:-1 tvg-id="alahly_tv" tvg-name="Al Ahly TV" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Al Ahly TV
-https://games1.elahmad.store/tv14_www_elahmad._alahly_tv/index.m3u8?token=14158cb3361ad6ac00e4706a1b0ed73fd77be40d-492e4f6985d5af04e23188533fcc0481-1788251516-1788249716
+https://games1.elahmad.store/tv14_www_elahmad._alahly_tv/index.m3u8?token=bcbc538d77530a7c5683ee5cc9427fecbbffcb05-3e5c58216d897eb6011f6e3942e85ab8-1788261953-1788260153
 #EXTINF:-1 tvg-id="zamalek" tvg-name="Zamalek Sports" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Zamalek Sports
-https://games2.elahmad.store/tv14_www_elahmad._zamalek/index.m3u8?token=2b014521edcee2e48058bb8cb1a4a87f90070fe0-cd0b51895a8e64551aef48b603b85acc-1788251517-1788249717
+https://games2.elahmad.store/tv14_www_elahmad._zamalek/index.m3u8?token=673235aafda586000c88e8757f6faca7ec0d4e36-9bd04b10bcde7d9eea0c95c42c5b6599-1788261955-1788260155
 #EXTINF:-1 tvg-id="alhayat_drama" tvg-name="Alhayat Drama" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Alhayat Drama
 https://fastly.live.brightcove.com/1843521635140662966/eu-west-1/6057955906001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZGd4MWQ4LmVncmVzcy5mZDJ2eHIiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTkwNjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1OTA2MDAxIl0sImp0aSI6IjE4NDM1MjE2MzUxNDA2NjI5NjYifQ.3f6Ek99wdZf_GSaWnd7hHgbJOSa2zbyqt2cUoxyTHzk/playlist-hls.m3u8
 #EXTINF:-1 tvg-id="alhayat" tvg-name="AlHayat TV" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",AlHayat TV
-alhayat
+https://games2.elahmad.store/tv14_www_elahmad._alhayat_eg/index.m3u8?token=82209d18c8e93cb92124f8ded91a04df8256e76d-b50b852b94669f01b4510c0ca49fac23-1788261957-1788260157
 #EXTINF:-1 tvg-id="alhayat_1" tvg-name="AlHayat TV" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",AlHayat TV
-https://games2.elahmad.store/tv14_www_elahmad._alhayat_eg/index.m3u8?token=af478b43c4ba5e6df1621b96164169a2aecabb32-5b6bd70f05cdfd7890eb077ed5c4e13b-1788251520-1788249720
-#EXTINF:-1 tvg-id="alhayat_series" tvg-name="Hayat Series" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Hayat Series
-http://95.170.215.107:80/hls/m3u8/Alhayat-M-Backup.m3u8
+https://games2.elahmad.store/tv14_www_elahmad._alhayat_eg/index.m3u8?token=57fd163025f260a91aa842868ca9d343ca5eef3d-6fc25785e92315f337de41786ced59b3-1788261959-1788260159
 #EXTINF:-1 tvg-id="elmehwar" tvg-name="Mehwar TV" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Mehwar TV
-https://games1.elahmad.store/tv14_www_elahmad._elmehwar/index.m3u8?token=e2bffba0b57eefffd5b36bbefac5ff750e8d8030-167d64b3b7719d99f31e3554036101db-1788251522-1788249722
+https://games1.elahmad.store/tv14_www_elahmad._elmehwar/index.m3u8?token=f4e3211702482978cba86aeacca51965c0377fdf-a0a9043e2754741a058cf014c728583d-1788261960-1788260160
 #EXTINF:-1 tvg-id="nile_cinema" tvg-name="Nile Cinema" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Nile Cinema
-https://games2.elahmad.store/tv14_www_elahmad._nile_cinema/index.m3u8?token=e23b30a9d48afcc1dd763fc8313885cb43adc01e-09a005dd0e6cfe29d3f13c97569413f1-1788251523-1788249723
-#EXTINF:-1 tvg-id="nilecinema" tvg-name="Nile Cinema" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Nile Cinema
-nilecinema
+https://games2.elahmad.store/tv14_www_elahmad._nile_cinema/index.m3u8?token=20ac1d0741987ca6a95e10371832c93fce718ea5-f285a2ba62bb0c4e6cdae6e85c374939-1788261962-1788260162
 #EXTINF:-1 tvg-id="nile_drama" tvg-name="Nile Drama" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Nile Drama
-https://games2.elahmad.store/tv14_www_elahmad._nile_drama/index.m3u8?token=52fa2503602f4bb3e84c7e689bdb7a526128402f-d207d45353cf970a44127372d7b1f923-1788251525-1788249725
-#EXTINF:-1 tvg-id="niledrama" tvg-name="Nile Drama" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Nile Drama
-niledrama
+https://games2.elahmad.store/tv14_www_elahmad._nile_drama/index.m3u8?token=5451c0e2e0303f63c67d1f97755cc72df5dcfbc1-1b3db343855d2116de31d9464468235a-1788261963-1788260163
 #EXTINF:-1 tvg-id="nile_comedy" tvg-name="Nile Comedy" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Nile Comedy
-https://games2.elahmad.store/tv14_www_elahmad._nile_comedy/index.m3u8?token=57b80a7a903218a1fc7d5b23eafd23780bd015b0-44641dee37dad3e1fd928976cc229c8b-1788251526-1788249726
-#EXTINF:-1 tvg-id="nilecomedy" tvg-name="Nile Comedy" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Nile Comedy
-nilecomedy
+https://games2.elahmad.store/tv14_www_elahmad._nile_comedy/index.m3u8?token=9d875873a5f9222cb8dff04b7c04c07475cb690f-c9a6c11d9856f36d9b999556afd93491-1788261965-1788260165
 #EXTINF:-1 tvg-id="nile_family" tvg-name="Nile Family" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Nile Family
-https://games2.elahmad.store/tv14_www_elahmad._nile_family/index.m3u8?token=32bc690408cdfb0698a88823f6e761e49eddd592-1d5b60e8850dd4d6bf3eec1e9606ffeb-1788251528-1788249728
+https://games2.elahmad.store/tv14_www_elahmad._nile_family/index.m3u8?token=82c031530049044c4b7ca94e1d1d5269cf9cb511-1052b088bd935fd518872da094c255c9-1788261966-1788260166
 #EXTINF:-1 tvg-id="nile_life" tvg-name="Nile Life" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Nile Life
-https://games2.elahmad.store/tv14_www_elahmad._nile_life/index.m3u8?token=3ef9c5237efca5c0eba2387339380462fd2839d3-fb707518bff98dbe7743748086ce00ed-1788251529-1788249729
-#EXTINF:-1 tvg-id="nilelife" tvg-name="Nile Life" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Nile Life
-nilelife
-#EXTINF:-1 tvg-id="nileculture" tvg-name="Nile Culture" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Nile Culture
-nileculture
+https://games2.elahmad.store/tv14_www_elahmad._nile_life/index.m3u8?token=396570b4fb4aadcb82307734e6b31c54e99a9391-92de4356015029954f5772090bcf91d6-1788261968-1788260168
 #EXTINF:-1 tvg-id="nilesport" tvg-name="Nile Sport" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Nile Sport
-https://games2.elahmad.store/tv14_www_elahmad._nile_sport/index.m3u8?token=37ba7e56b43547c733b24875b3fa220f62567ec3-c5e6957909b45a8fbcfd8832b1e06bdf-1788251531-1788249731
+https://games2.elahmad.store/tv14_www_elahmad._nile_sport/index.m3u8?token=504e120bc093225e0fa124388e1962325860a491-402c8766d8fde514d923c3e97c4a0465-1788261969-1788260169
 #EXTINF:-1 tvg-id="nile_sport" tvg-name="Nile Sport" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Nile Sport
-https://games2.elahmad.store/tv14_www_elahmad._nile_sport/index.m3u8?token=4ef6efd6c3bec3bc712cd19d6f274d379cc449e6-4ea74949e921ac6ce68f86933fe314ac-1788251532-1788249732
+https://games2.elahmad.store/tv14_www_elahmad._nile_sport/index.m3u8?token=3dd55ad1009be1795d0fc5e7a6b9b069f0dc60fb-5df06be2a073fb825766889e777034cb-1788261971-1788260171
 #EXTINF:-1 tvg-id="nile_news" tvg-name="Nile News" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Nile News
-https://games1.elahmad.store/tv14_www_elahmad._nile_news/index.m3u8?token=af97282f21a6863ff8ce5380fe605aaf78ffba16-ab61f3ff2fb4dd5dd7a480d72cd064b7-1788251533-1788249733
+https://games1.elahmad.store/tv14_www_elahmad._nile_news/index.m3u8?token=3a28f231ba50946621489b5b22197fa6baee7a30-db87b5d1ca0951d898de43a993847e77-1788261972-1788260172
 #EXTINF:-1 tvg-id="nile_tv" tvg-name="Nile TV" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Nile TV
-https://games1.elahmad.store/tv14_www_elahmad._nile_tv/index.m3u8?token=e847972b9e6d3681ae84680cf2a236acaf007597-fee20bba8e427e929e8d415c53409938-1788251534-1788249734
+https://games1.elahmad.store/tv14_www_elahmad._nile_tv/index.m3u8?token=96362489aefac74ef336ebda62e57360ffcc36a5-d32c497e5fc69febd04d908f44b31512-1788261974-1788260174
 #EXTINF:-1 tvg-id="alghad_alarab" tvg-name="Alghad TV" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Alghad TV
 https://eazyvwqssi.erbvr.com/alghadtv/alghadtv.m3u8
-#EXTINF:-1 tvg-id="melody_aflam" tvg-name="Melody Aflam" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Melody Aflam
-/tv/m3u8/melody_tv.m3u8?id=melody_aflam
-#EXTINF:-1 tvg-id="melody_classic" tvg-name="Melody Classic" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Melody Classic
-/tv/m3u8/melody_tv.m3u8?id=melody_classic
 #EXTINF:-1 tvg-id="panorama_drama" tvg-name="Panorama drama" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Panorama drama
-https://games1.elahmad.store/tv14_www_elahmad._panorama_drama/index.m3u8?token=b879c7a0630d6fe83d7c006dd167fa49e0356372-6a3048b0ee35f58e519d75c6b621a129-1788251538-1788249738
+https://games1.elahmad.store/tv14_www_elahmad._panorama_drama/index.m3u8?token=051c307750691b067ba41fccd69ddc7fbe5da5d3-06f0aa3d4e72c2b89f8750f4b3d76a51-1788261977-1788260177
 #EXTINF:-1 tvg-id="panorama_drama2" tvg-name="Panorama drama 2" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Panorama drama 2
-https://games1.elahmad.store/tv14_www_elahmad._panorama_drama2/index.m3u8?token=ac3ce55f2902129dc3b5decf1c00a68615fdc811-bf0b9c2bdd0c59b503958bd7dbe44ec4-1788251539-1788249739
+https://games1.elahmad.store/tv14_www_elahmad._panorama_drama2/index.m3u8?token=27cce834c1adb8f2710a7bb03d4d30293bda5825-ad55c59bc0ea76fd379c5096be29abae-1788261978-1788260178
 #EXTINF:-1 tvg-id="panorama_film" tvg-name="Panorama Film" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Panorama Film
-https://games1.elahmad.store/tv14_www_elahmad._panorama_film/index.m3u8?token=5cd9b8b892f5bd1b60b1ca6710db35967d9a8f2e-7f5ef38af4414461c9b39cc12a632350-1788251540-1788249740
+https://games1.elahmad.store/tv14_www_elahmad._panorama_film/index.m3u8?token=e6a3ce3ec442b40b0597aafe886cce6323408e76-ffb21003309ecb33cda7f4f7b9695155-1788261980-1788260180
 #EXTINF:-1 tvg-id="panorama_food" tvg-name="Panorama Food" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Panorama Food
-https://games1.elahmad.store/tv14_www_elahmad._panorama_food/index.m3u8?token=36a0146617cb3f4dba683457d3d3fd524851b227-6f7d49683b30369fc205ab064f19b24b-1788251540-1788249740
+https://games1.elahmad.store/tv14_www_elahmad._panorama_food/index.m3u8?token=7f2fee3867dfd869330cdf3a26bb9ed55663bf99-15b02dd5ce45fe688dc229b349757660-1788261981-1788260181
 #EXTINF:-1 tvg-id="tentv" tvg-name="Ten TV" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Ten TV
-https://games1.elahmad.store/tv14_www_elahmad._tentv/index.m3u8?token=2ea6423d573480dbeb5174b4ff529126c56a4193-d02596d344118913db7edfa850f6d6e2-1788251541-1788249741
+https://games1.elahmad.store/tv14_www_elahmad._tentv/index.m3u8?token=5e0778f44eac6f6ed50e84c0569481c7984d900b-e3fb04ffdb8a84c05427749a3eb17730-1788261983-1788260183
 #EXTINF:-1 tvg-id="mixbelaraby" tvg-name="Mix Bel Araby" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Mix Bel Araby
-https://games1.elahmad.store/tv14_www_elahmad._mixbelaraby/index.m3u8?token=113b74fff1d30ea88e810b34f0819a19f09f4283-ccedfa95d8d04da8a9a34e123a2aa922-1788251542-1788249742
+https://games1.elahmad.store/tv14_www_elahmad._mixbelaraby/index.m3u8?token=469a5dc6c1b0a385e1650e581bb5b0dfc1017c2f-4c076c7c951d88c158fc55d7ebebc4eb-1788261984-1788260184
 #EXTINF:-1 tvg-id="mix_bel_araby" tvg-name="Mix Bel Araby 1" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Mix Bel Araby 1
 https://ml-pull-hwc.myco.io/MixBelAraby/hls/index.m3u8
 #EXTINF:-1 tvg-id="mix_one" tvg-name="Mix one" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Mix one
