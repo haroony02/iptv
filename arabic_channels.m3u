@@ -9,10 +9,22 @@ https://tv-trtarabi.medya.trt.com.tr/master.m3u8?v=9e45ccfa
 https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8
 #EXTINF:-1 tvg-id="bbcarab_ar1" tvg-name="BBC Arabic" tvg-logo="" group-title="قنوات عربية عالمية",BBC Arabic
 https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.m3u8
+#EXTINF:-1 tvg-id="rt_ar1" tvg-name="RT Arabic" tvg-logo="" group-title="قنوات عربية عالمية",RT Arabic
+https://rt-arb.rttv.com/live/rtarab/playlist.m3u8?v=9e45ccfa
+#EXTINF:-1 tvg-id="rt_usa" tvg-name="RT Usa" tvg-logo="" group-title="قنوات عربية عالمية",RT Usa
+https://rt-ger.rttv.com/dvr/rtnews/playlist.m3u8
+#EXTINF:-1 tvg-id="rt_uk" tvg-name="RT Uk" tvg-logo="" group-title="قنوات عربية عالمية",RT Uk
+https://rt-srb.rttv.com/dvr/rtbalkan/playlist.m3u8?v=9e45ccfa
+#EXTINF:-1 tvg-id="rt_fr" tvg-name="RT Fr" tvg-logo="" group-title="قنوات عربية عالمية",RT Fr
+https://rt-arb.rttv.com/live/rtfrance/playlist.m3u8?v=9e45ccfa
+#EXTINF:-1 tvg-id="rt_de" tvg-name="RT De" tvg-logo="" group-title="قنوات عربية عالمية",RT De
+https://rt-ger.rttv.com/dvr/rtdeutsch/playlist.m3u8
+#EXTINF:-1 tvg-id="rt_doc" tvg-name="RT Doc" tvg-logo="" group-title="قنوات عربية عالمية",RT Doc
+https://rt-ger.rttv.com/dvr/rtdoc/playlist.m3u8?v=9e45ccfa
 #EXTINF:-1 tvg-id="africanews_en" tvg-name="AfricaNews EN" tvg-logo="" group-title="قنوات عربية عالمية",AfricaNews EN
-https://cdn-euronews.akamaized.net/live/eds/africanews-en/25098/africanews-en.m3u8?hdnea=exp=1788379752~acl=*~hmac=cb7293b515e52567808040444a401a9fd56e890fd7b2558707633a4d9df4b9ef
+https://cdn-euronews.akamaized.net/live/eds/africanews-en/25098/africanews-en.m3u8?hdnea=exp=1788389150~acl=*~hmac=a608d29c14a7f1d5dd6778c0037a35a96c4280b6c040d91f29c437e1b571362f
 #EXTINF:-1 tvg-id="africanews_fr" tvg-name="AfricaNews FR" tvg-logo="" group-title="قنوات عربية عالمية",AfricaNews FR
-https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25097/africanews-fr.m3u8?hdnea=exp=1788379752~acl=*~hmac=cb7293b515e52567808040444a401a9fd56e890fd7b2558707633a4d9df4b9ef
+https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25097/africanews-fr.m3u8?hdnea=exp=1788389150~acl=*~hmac=a608d29c14a7f1d5dd6778c0037a35a96c4280b6c040d91f29c437e1b571362f
 #EXTINF:-1 tvg-id="alalam1" tvg-name="Al Alam News" tvg-logo="" group-title="قنوات عربية عالمية",Al Alam News
 https://raw.elahmad.net/https://live2.alalam.ir/live/Alalam_low/index.m3u8
 #EXTINF:-1 tvg-id="almasirah_tv" tvg-name="Al Masirah TV" tvg-logo="" group-title="قنوات عربية عالمية",Al Masirah TV
@@ -23,6 +35,10 @@ https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
 https://live.presstv.co.uk/hls/presstv.m3u8?v=9e45ccfa
 #EXTINF:-1 tvg-id="almaareftv" tvg-name="Al Maarif" tvg-logo="" group-title="قنوات عربية عالمية",Al Maarif
 https://bucharest.zeuscdn724.com/lb0/CH-AL-MA/index.m3u8
+#EXTINF:-1 tvg-id="awraas" tvg-name="Awraas TV" tvg-logo="" group-title="قنوات عربية عالمية",Awraas TV
+https://b01c02nl.mediatriple.net/videoonlylive/mtqtqloqdxtlive/broadcast_5cefc3677caee.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="mauritaniatv1" tvg-name="الموريتانية" tvg-logo="" group-title="قنوات عربية عالمية",الموريتانية
+https://games2.elahmad.store/tv14_www_elahmad._elmouritania/index.m3u8?token=3ec7e777f217e0181e6697f533e04b98052d53c6-d70dbdec909de0e5b93a3594d6866329-1788304586-1788302786
 #EXTINF:-1 tvg-id="almagharibia" tvg-name="Al Magharibia" tvg-logo="" group-title="قنوات عربية عالمية",Al Magharibia
 https://www.elahmad.ru/tv/youtube.php?id=almagharibia
 #EXTINF:-1 tvg-id="skynews" tvg-name="Sky News" tvg-logo="" group-title="قنوات عربية عالمية",Sky News
@@ -37,3 +53,5 @@ https://www.elahmad.ru/tv/youtube.php?id=france24_fr
 https://www.elahmad.ru/tv/youtube.php?id=france24_en
 #EXTINF:-1 tvg-id="france24_es" tvg-name="France24 Es" tvg-logo="" group-title="قنوات عربية عالمية",France24 Es
 https://www.elahmad.ru/tv/youtube.php?id=france24_es
+#EXTINF:-1 tvg-id="mauritania_sport" tvg-name="الرياضية" tvg-logo="" group-title="قنوات عربية عالمية",الرياضية
+https://www.elahmad.ru/tv/youtube.php?id=mauritania_sport
