@@ -10,16 +10,18 @@ https://svs.itworkscdn.net/smc2live/smc2tv.smil/playlist.m3u8?v=9e45ccfa
 #EXTINF:-1 tvg-id="al_sharjah_kalba1" tvg-name="الشرقية من كلباء" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",الشرقية من كلباء
 https://svs.itworkscdn.net/kablatvlive/kabtv1.smil/playlist.m3u8?v=9e45ccfa
 #EXTINF:-1 tvg-id="al_sharjah_sport1" tvg-name="Sharjah Sports" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",Sharjah Sports
-https://live.kwikmotion.com/smc4sportslive/smc4tv.smil/playlist.m3u8?hdnts=exp=1788260201~acl=/smc4sportslive/smc4tv.smil/*~hmac=c3376102c002e12d680907f4477b90977fe6e1f8b6f45d863a6dfd26eb84e0ab
+https://live.kwikmotion.com/smc4sportslive/smc4tv.smil/playlist.m3u8?hdnts=exp=1788269793~acl=/smc4sportslive/smc4tv.smil/*~hmac=1dfd761c7bc5a2ce53e9c979d99482b1ae27f31ea297ef5eca81eb17da9a326d
+#EXTINF:-1 tvg-id="al_sharjah_sport2" tvg-name="Sharjah Sports2" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",Sharjah Sports2
+https://live.kwikmotion.com/smc4sports2live/sports2.smil/playlist.m3u8?hdnts=exp=1788269794~acl=/smc4sports2live/sports2.smil/*~hmac=f61f9a5615a01b955a5f93998c48e525fabaa948a68b7b72f86f4f007808d271
 #EXTINF:-1 tvg-id="alwousta" tvg-name="AlWousta" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",AlWousta
 https://svs.itworkscdn.net/alwoustalive/alwoustatv.smil/playlist.m3u8?v=9e45ccfa
 #EXTINF:-1 tvg-id="fujtv" tvg-name="Fujairah TV" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",Fujairah TV
-https://live.kwikmotion.com/fujairahlive/fujairah.smil/playlist.m3u8?hdnts=exp=1788260175~acl=/fujairahlive/fujairah.smil/*~hmac=bfc4a412ec0b4ecc1e335cce96e75508129c31646c085876a01fa81bb0456f27
+https://live.kwikmotion.com/fujairahlive/fujairah.smil/playlist.m3u8?hdnts=exp=1788269767~acl=/fujairahlive/fujairah.smil/*~hmac=275f1720bb73ee64253cc7758fbc8a1d803278a932efcecc135f43c319388ac9
 #EXTINF:-1 tvg-id="alaan1" tvg-name="تلفزيون الان" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",تلفزيون الان
-https://games2.elahmad.store/tv14_www_elahmad._alaan_tv/index.m3u8?token=8560a1cc9c74bda6acbd43c044687b98bf971971-2cdd992c29eb803b7f83866e896b72f8-1788261889-1788260089
+https://games2.elahmad.store/tv14_www_elahmad._alaan_tv/index.m3u8?token=a7b8d4739fccc8e23f71e9ec0959d2c16bb0ea0a-532c0f93059daa65138782bdfa59b023-1788271479-1788269679
 #EXTINF:-1 tvg-id="cnbc_arabia" tvg-name="CNBC عربية" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",CNBC عربية
 https://cnbc-live.akamaized.net/cnbc/master.m3u8
 #EXTINF:-1 tvg-id="fatafeat" tvg-name="قناة فتافيت" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",قناة فتافيت
-https://games1.elahmad.store/tv14_www_elahmad._fatafeat/index.m3u8?token=bd1b325371559bb250cb54631f8a5e6734b420b0-177c2b267f75b52940f721dc3bf7fba7-1788261897-1788260097
+https://games1.elahmad.store/tv14_www_elahmad._fatafeat/index.m3u8?token=e08640f575560403e35716f66bc5d847a5f089ae-2bdaff882f2212646c8d536795fa2008-1788271486-1788269686
 #EXTINF:-1 tvg-id="skynewsarabia" tvg-name="سكاي نيوز" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",سكاي نيوز
 https://www.elahmad.ru/tv/youtube.php?id=skynewsarabia
