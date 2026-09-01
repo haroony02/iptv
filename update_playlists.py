@@ -114,15 +114,38 @@ def safe_filename(name):
     s = s.strip().strip('.')
     return s[:80] or 'unnamed'
 
+REFERER = "https://www.elahmad.ru/tv/mobile-live-stream/"
+
+
+def classify_href(href):
+    """Return (player_type, stream_id) for a recognized elahmad player link."""
+    if 'glarb.php?id=' in href:
+        return 'glarb', parse_qs(urlparse(href).query).get('id', [None])[0]
+    if 'watchtv.php?id=' in href:
+        return 'watchtv', parse_qs(urlparse(href).query).get('id', [None])[0]
+    if 'rotanatv.php?id=' in href:
+        return 'rotanatv', parse_qs(urlparse(href).query).get('id', [None])[0]
+    if 'alkass_hd.php?id=' in href:
+        return 'alkass', parse_qs(urlparse(href).query).get('id', [None])[0]
+    if '/live/sl.php?id=' in href or '/live_stream.php?id=' in href or 'arabic-tv-online.php?id=' in href:
+        return 'other', parse_qs(urlparse(href).query).get('id', [None])[0]
+    if '/live/channels.php?id=' in href:
+        return 'shahid_channels', parse_qs(urlparse(href).query).get('id', [None])[0]
+    if 'shahid_shaka.php?id=' in href:
+        return 'shahid_dash', parse_qs(urlparse(href).query).get('id', [None])[0]
+    if 'youtube.php?id=' in href:
+        return 'youtube', parse_qs(urlparse(href).query).get('id', [None])[0]
+    return None, None
+
+
 def collect_channels(session, categories, delay=0.3):
-    """Collect channels from website"""
+    """Collect channels from website (recognizes all player link types)."""
     results = []
     for cat_id, cat_name in categories.items():
-        # Use English text for print to avoid encoding issues
         print(f"Processing category {cat_id}...", end=" ", flush=True)
         url = f"{BASE}/mobile-live-stream/?id={cat_id}"
         try:
-            r = session.get(url, timeout=20)
+            r = session.get(url, headers={"Referer": REFERER}, timeout=20)
             r.raise_for_status()
         except Exception as e:
             print(f"Failed: {e}")
@@ -131,116 +154,156 @@ def collect_channels(session, categories, delay=0.3):
 
         channels_in_cat = []
         seen = set()
-        
         for m in re.finditer(r'<a[^>]*href="([^"]+)"[^>]*>([\s\S]*?)</a>', html, re.IGNORECASE):
             href = m.group(1).strip()
             text_raw = m.group(2)
             text = re.sub(r'<[^>]+>', '', text_raw).strip()
             text = re.sub(r'\s+', ' ', text)
 
-            is_stream = False
-            stream_id = None
-            player_type = None
-            
-            if 'glarb.php?id=' in href:
-                qs = parse_qs(urlparse(href).query)
-                stream_id = qs.get('id', [None])[0]
-                player_type = 'glarb'
-                is_stream = True
-            elif 'alkass_hd.php?id=' in href:
-                qs = parse_qs(urlparse(href).query)
-                stream_id = qs.get('id', [None])[0]
-                player_type = 'alkass'
-                is_stream = True
-            elif '/live/sl.php?id=' in href or '/live_stream.php?id=' in href or 'arabic-tv-online.php?id=' in href:
-                qs = parse_qs(urlparse(href).query)
-                stream_id = qs.get('id', [None])[0]
-                player_type = 'other'
-                is_stream = True
-            elif 'youtube.php?id=' in href:
-                qs = parse_qs(urlparse(href).query)
-                stream_id = qs.get('id', [None])[0]
-                player_type = 'youtube'
-                is_stream = True
-
-            if is_stream and stream_id and text and stream_id not in seen:
-                seen.add(stream_id)
-                full_href = href if href.startswith("http") else urljoin(url, href)
-                channels_in_cat.append({
-                    "category": cat_name,
-                    "name": text,
-                    "stream_id": stream_id,
-                    "player_url": full_href,
-                    "player_type": player_type,
-                })
+            ptype, stream_id = classify_href(href)
+            if ptype is None or not stream_id or not text:
+                continue
+            if stream_id in seen:
+                continue
+            seen.add(stream_id)
+            full_href = href if href.startswith("http") else urljoin(url, href)
+            channels_in_cat.append({
+                "category": cat_name,
+                "name": text,
+                "stream_id": stream_id,
+                "player_url": full_href,
+                "player_type": ptype,
+            })
 
         print(f"OK {len(channels_in_cat)} channels")
         results.extend(channels_in_cat)
         time.sleep(delay)
     return results
 
-def extract_from_player_page(session, player_url):
-    """Extract information from player page"""
-    try:
-        r = session.get(player_url, timeout=20)
-        html = r.text
-    except Exception:
-        return None, None, None
-    
-    csrf = None
-    m1 = re.search(r'<meta[^>]*name=["\']csrf-token["\'][^>]*content=["\']([^"\']+)["\']', html, re.IGNORECASE)
-    if m1:
-        csrf = m1.group(1)
-    else:
-        m2 = re.search(r'csrfToken\s*=\s*["\']([^"\']+)["\']', html)
-        if m2:
-            csrf = m2.group(1)
-    
-    embed_m = re.search(r'embed_result\s*=\s*["\']([^"\']+)["\']', html)
-    embed_path = embed_m.group(1) if embed_m else "/tv/result/embed_result_elahmad_81.php"
-    
-    stream_page_id = None
-    qs = parse_qs(urlparse(player_url).query)
-    stream_page_id = qs.get('id', [None])[0]
-    
-    return csrf, stream_page_id, embed_path
 
-def resolve_stream(session, ch):
-    """Get real stream URL"""
-    if ch["player_type"] == "youtube":
-        return None
-    
-    csrf, stream_id, embed_path = extract_from_player_page(session, ch["player_url"])
-    if not stream_id:
-        return None
-    
-    embed_url = urljoin("https://www.elahmad.ru", embed_path)
-    if not csrf:
-        csrf = ""
-    
-    body = f"id={requests.utils.quote(stream_id)}&csrf_token={requests.utils.quote(csrf)}"
+def find_csrf(html):
+    m = re.search(r'<meta[^>]*name=["\']csrf-token["\'][^>]*content=["\']([^"\']+)', html, re.IGNORECASE)
+    if m:
+        return m.group(1)
+    m = re.search(r'csrfToken\s*=\s*["\']([^"\']+)["\']', html)
+    return m.group(1) if m else None
+
+
+def post_embed(session, embed_path, payload, referer):
+    url = urljoin("https://www.elahmad.ru", embed_path)
     try:
-        r = session.post(embed_url, data=body, headers={
+        r = session.post(url, data=payload, headers={
             "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
             "X-Requested-With": "XMLHttpRequest",
-            "Referer": ch["player_url"],
+            "Referer": referer,
         }, timeout=20)
         if r.status_code != 200:
             return None
-        data = r.json()
+        return r.json()
     except Exception:
         return None
-    
-    if data.get("error"):
+
+
+def resolve_glarb(session, ch):
+    """glarb.php -> mirror 'embed_result_elahmad_81.php' flow."""
+    try:
+        html = session.get(ch["player_url"], headers={"Referer": REFERER}, timeout=20).text
+    except Exception:
         return None
-    
-    l4 = data.get("link_4")
-    k = data.get("key")
-    iv = data.get("iv")
+    csrf = find_csrf(html)
+    emb = re.search(r'embed_result\s*=\s*["\']([^"\']+)["\']', html)
+    embed_path = emb.group(1) if emb else "/tv/result/embed_result_elahmad_81.php"
+    body = f"id={requests.utils.quote(ch['stream_id'])}&csrf_token={requests.utils.quote(csrf or '')}"
+    data = post_embed(session, embed_path, body, ch["player_url"])
+    if not data or data.get("error"):
+        return None
+    l4 = data.get("link_4"); k = data.get("key"); iv = data.get("iv")
     if not (l4 and k and iv):
         return None
-    
     return aes_decrypt_elahmad(l4, k, iv)
+
+
+def resolve_watchtv(session, ch):
+    """watchtv.php -> embed_result_watchtv.php with csrf."""
+    try:
+        html = session.get(ch["player_url"], headers={"Referer": REFERER}, timeout=20).text
+    except Exception:
+        return None
+    if len(html) < 2000:
+        return None
+    csrf = find_csrf(html)
+    if not csrf:
+        return None
+    body = f"id={requests.utils.quote(ch['stream_id'])}&csrf_token={requests.utils.quote(csrf)}"
+    data = post_embed(session, "/tv/result/embed_result_watchtv.php", body, ch["player_url"])
+    if not data or data.get("error"):
+        return None
+    l4 = data.get("link_4"); k = data.get("key"); iv = data.get("iv")
+    if not (l4 and k and iv):
+        return None
+    return aes_decrypt_elahmad(l4, k, iv)
+
+
+def resolve_rotanatv(session, ch):
+    """rotanatv.php -> POST to same page with dynamic hash, fixed key/iv."""
+    try:
+        html = session.get(ch["player_url"], headers={"Referer": REFERER}, timeout=20).text
+    except Exception:
+        return None
+    if len(html) < 2000:
+        return None
+    hm = re.search(r'\{([0-9a-f]{32})\s*:\s*["\']([^"\']+)["\']', html)
+    if not hm:
+        return None
+    hashkey = hm.group(1)
+    data = post_embed(session, ch["player_url"], {hashkey: ch["stream_id"]}, ch["player_url"])
+    if not data:
+        return None
+    l4 = data.get("link_url_4") or data.get("link_4")
+    if not l4:
+        return None
+    return aes_decrypt_elahmad(l4, "6bc94d5606eb1d2f10c2e29c81711abd", "ab3e5957703fe28a")
+
+
+def resolve_stream(session, ch):
+    """Get real stream URL by player type."""
+    method = {
+        "glarb": resolve_glarb,
+        "watchtv": resolve_watchtv,
+        "rotanatv": resolve_rotanatv,
+    }.get(ch["player_type"])
+    if method is None:
+        return None
+    return method(session, ch)
+
+
+def test_playable(session, url):
+    """Return True only if the URL actually serves a valid playlist (HTTP 200 + m3u8 content)."""
+    if not url:
+        return False
+    if not re.search(r'\.(m3u8|mpd)(\?|$)', url):
+        return False
+    try:
+        r = session.get(url, headers={"Referer": "https://www.elahmad.ru/"}, timeout=20)
+    except Exception:
+        return False
+    if r.status_code != 200:
+        return False
+    body = r.text[:2000].upper()
+    return "#EXTM3U" in body or "#EXT-X-STREAM-INF" in body or "#EXTINF" in body
+
+
+def dedupe_by_name_and_id(channels):
+    """Keep the first channel for each (name, stream_id) pair."""
+    seen = set()
+    out = []
+    for ch in channels:
+        key = (ch.get("name"), ch.get("stream_id"))
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(ch)
+    return out
 
 def build_m3u(channels, filename):
     """Build M3U file"""
@@ -493,16 +556,17 @@ def main():
     
     # Decrypt real stream URLs
     if HAS_PYCRYPTODOME:
-        print("\n[2/3] Decrypting real stream URLs...")
-        targets = [c for c in all_channels if c["player_type"] in ("glarb", "alkass", "other")]
+        print("\n[2/3] Decrypting real stream URLs + playability test...")
+        targets = [c for c in all_channels if c["player_type"] in ("glarb", "watchtv", "rotanatv")]
         print(f"Target channels: {len(targets)}")
         
         resolved = []
         ok = 0
+        playable = 0
         for idx, ch in enumerate(targets, 1):
-            # Use simple index instead of Arabic name to avoid encoding issues
             print(f"[{idx}/{len(targets)}] Processing channel...", end=" ", flush=True)
             
+            url = None
             try:
                 url = resolve_stream(session, ch)
             except Exception:
@@ -511,8 +575,14 @@ def main():
             ch2 = dict(ch)
             if url:
                 ok += 1
-                ch2["stream_url"] = url
-                print("OK")
+                if test_playable(session, url):
+                    playable += 1
+                    ch2["stream_url"] = url
+                    print("OK")
+                else:
+                    ch2["stream_url"] = url
+                    ch2["not_playable"] = True
+                    print("NOT-PLAYABLE")
             else:
                 print("FAILED")
             resolved.append(ch2)
@@ -525,13 +595,26 @@ def main():
                 ch2["stream_url"] = c["player_url"]
                 resolved.append(ch2)
         
-        print(f"Successfully decrypted: {ok} of {len(targets)}")
+        # Add non-decodable types (player page only)
+        for c in all_channels:
+            if c["player_type"] in ("shahid_dash", "shahid_channels", "alkass", "other"):
+                ch2 = dict(c)
+                ch2["note"] = "player_page_only"
+                resolved.append(ch2)
+        
+        print(f"Successfully decrypted: {ok} of {len(targets)} (playable: {playable})")
         
         # Save resolved data
         save_json(resolved, "elahmad_channels_resolved.json")
         
-        # Build M3U with real URLs
-        only_real = [c for c in resolved if c.get("stream_url")]
+        # Real streams = playable only (dead links excluded)
+        only_real = [c for c in resolved if c.get("stream_url") and not c.get("not_playable")]
+        # Remove duplicates (same name + id)
+        before = len(only_real)
+        only_real = dedupe_by_name_and_id(only_real)
+        if len(only_real) != before:
+            print(f"Removed {before - len(only_real)} duplicate channels (same name+id)")
+        
         if only_real:
             build_m3u(only_real, "elahmad_live_real_streams.m3u")
             print(f"Created M3U file with real URLs: {len(only_real)} channels")
@@ -542,7 +625,6 @@ def main():
                 by_cat.setdefault(c["category"], []).append(c)
             
             for cat_name, cat_chs in by_cat.items():
-                # Use English filename mapping if available, otherwise use safe filename
                 if cat_name in CATEGORY_FILENAME_MAP:
                     filename = f"{CATEGORY_FILENAME_MAP[cat_name]}.m3u"
                 else:
@@ -595,8 +677,8 @@ def main():
     print("\n" + "=" * 70)
     print("Update completed successfully!")
     print(f"End time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"Total channels: {len(all_channels)}")
-    print(f"Resolved channels: {len(only_real)}")
+    print(f"Total channels collected: {len(all_channels)}")
+    print(f"Working/playable channels (after clean + dedupe): {len(only_real)}")
     print("=" * 70)
 
 if __name__ == "__main__":
