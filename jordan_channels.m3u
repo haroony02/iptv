@@ -1,9 +1,11 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="jordan1" tvg-name="Jordan TV" tvg-logo="" group-title="قنوات الاردن",Jordan TV
 https://jrtv-live.ercdn.net/jordanhd/jordanhd.m3u8?DVR&v=9e45ccfa
+#EXTINF:-1 tvg-id="royatv1" tvg-name="Roya TV" tvg-logo="" group-title="قنوات الاردن",Roya TV
+https://live.kwikmotion.com/royatvlive/royatv.smil/playlist.m3u8?hdnts=exp=1788516929~acl=/royatvlive/royatv.smil/*~hmac=6577803c0dcdc9990d54d1aae0e0c39fad8a268b56b1c77a8779892ec95a05d4
 #EXTINF:-1 tvg-id="almamlakatv" tvg-name="Al Mamlaka TV" tvg-logo="" group-title="قنوات الاردن",Al Mamlaka TV
 https://fastly.live.brightcove.com/6376826200112/eu-central-1/6415809151001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoieWlod3RhLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjQxNTgwOTE1MTAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2NDE1ODA5MTUxMDAxIl0sImp0aSI6IjYzNzY4MjYyMDAxMTIifQ.EBaDAQiDkyoRKYIjLROyrZzKFPcftOUxk4ftmhtVsEk/playlist-hls-dvr.m3u8
 #EXTINF:-1 tvg-id="amman_tv" tvg-name="Amman TV" tvg-logo="" group-title="قنوات الاردن",Amman TV
 https://htvnksdtmy.erbvr.com/ammantvhd/ammantvhd.m3u8
 #EXTINF:-1 tvg-id="kifa" tvg-name="Kifa Tv" tvg-logo="" group-title="قنوات الاردن",Kifa Tv
-https://games2.elahmad.store/tv14_www_elahmad._kifa/index.m3u8?token=66a09bc9f2f1d5a8e72e44d5c75acb52ccf20f59-0a2ebe1bc087bf234f4c892813b7cc7b-1788499400-1788497600
+https://games2.elahmad.store/tv14_www_elahmad._kifa/index.m3u8?token=95310e8af22e8941835cc547d8d42700243c3fcc-6cb30ca691b8b81bebe6ca799ccf9537-1788515075-1788513275
