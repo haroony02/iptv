@@ -9,6 +9,8 @@ https://live-hls-web-aja.getaj.net/AJA/index.m3u8
 https://live-hls-web-ajm-gcp.thehlive.com/AJM/index.m3u8
 #EXTINF:-1 tvg-id="aljamisr_ar1" tvg-name="الجزيرة مباشر مصر" tvg-logo="" group-title="قنوات قطر - الجزيرة",الجزيرة مباشر مصر
 https://live-hls-web-ajm-gcp.thehlive.com/AJM/index.m3u8
+#EXTINF:-1 tvg-id="aljazeeradoc1" tvg-name="الجزيرة الوثائقية" tvg-logo="" group-title="قنوات قطر - الجزيرة",الجزيرة الوثائقية
+https://games2.elahmad.store/tv14_www_elahmad._aljazeera_doc/index.m3u8?token=78696201f8ffb227afbccf7de5cad1966c902ebf-d02846e1972f1d940e48c8f7a5e90152-1788672020-1788670220
 #EXTINF:-1 tvg-id="qatartv1" tvg-name="قناة قطر" tvg-logo="" group-title="قنوات قطر - الجزيرة",قناة قطر
 https://qatartv.akamaized.net/hls/live/20000609/qtv1/master.m3u8?v=9e45ccfa
 #EXTINF:-1 tvg-id="qatartv2" tvg-name="قناة قطر2" tvg-logo="" group-title="قنوات قطر - الجزيرة",قناة قطر2
@@ -24,9 +26,9 @@ https://live-hls-web-aje-gcp.thehlive.com/AJE/index.m3u8
 #EXTINF:-1 tvg-id="aljazeera_balkans1" tvg-name="Al Jazeera Balkans" tvg-logo="" group-title="قنوات قطر - الجزيرة",Al Jazeera Balkans
 https://live-hls-web-aje-gcp.thehlive.com/AJE/index.m3u8
 #EXTINF:-1 tvg-id="baraem" tvg-name="قناة براعم" tvg-logo="" group-title="قنوات قطر - الجزيرة",قناة براعم
-https://games1.elahmad.store/tv14_www_elahmad._baraem1/index.m3u8?token=9c2fe691d1b9a6fc90c6857fdd3806716d5a66ec-f1f8d574a457b938a5117521489c35a5-1788654655-1788652855
+https://games1.elahmad.store/tv14_www_elahmad._baraem1/index.m3u8?token=343039eef9217932db452a89507490a8f9ceba15-3e9e205777005cd1bc6b702d6887eb68-1788672033-1788670233
 #EXTINF:-1 tvg-id="jscc1" tvg-name="تلفزيون جيم" tvg-logo="" group-title="قنوات قطر - الجزيرة",تلفزيون جيم
-https://games1.elahmad.store/tv14_www_elahmad._jeem/index.m3u8?token=9c8fb334dde74cd37b81409813996618b4c7e01e-2584f65d71caf103177c7b4dfdef9858-1788654657-1788652857
+https://games1.elahmad.store/tv14_www_elahmad._jeem/index.m3u8?token=2d188c1e0081eef0c1175de2878022c1da4d0736-9eda340131d35620c877a8978331e866-1788672035-1788670235
 #EXTINF:-1 tvg-id="aljazeerachannel" tvg-name="قناة الجزيرة" tvg-logo="" group-title="قنوات قطر - الجزيرة",قناة الجزيرة
 https://www.elahmad.ru/tv/youtube.php?id=aljazeerachannel
 #EXTINF:-1 tvg-id="aljazeeramubasher" tvg-name="الجزيرة مباشر" tvg-logo="" group-title="قنوات قطر - الجزيرة",الجزيرة مباشر
