@@ -1,8 +1,10 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="atfalwamwaheb" tvg-name="أطفال ومواهب" tvg-logo="" group-title="قنوات اطفال Kids TV",أطفال ومواهب
+https://5aafcc5de91f1.streamlock.net/atfal1.com/atfal2/playlist.m3u8
 #EXTINF:-1 tvg-id="toyoraljanah" tvg-name="Toyor Aljanah" tvg-logo="" group-title="قنوات اطفال Kids TV",Toyor Aljanah
-https://games2.elahmad.store/tv15_www_elahmad._toyoraljanah/index.m3u8?token=5b1bbf250160ec64c5b4c3cd6a1459867bef5d17-d0a52396a25d5736429bd908a5d940a5-1788895565-1788893765
+https://games2.elahmad.store/tv15_www_elahmad._toyoraljanah/index.m3u8?token=ec0a675f64a167a4e52f8c6f4af4254732b8b6f9-2f8ec60c2c69ff56176e382f785c4998-1788905046-1788903246
 #EXTINF:-1 tvg-id="karameesh" tvg-name="قناة كراميش" tvg-logo="" group-title="قنوات اطفال Kids TV",قناة كراميش
-https://games1.elahmad.store/tv15_www_elahmad._karameesh/index.m3u8?token=70523cb26a6f166e01bcef66e3c9e6bb1ecf1150-af319a583e526894e82ff85eb329c3d8-1788895592-1788893792
+https://games1.elahmad.store/tv15_www_elahmad._karameesh/index.m3u8?token=2c38ea4d437e5c6c3cc3895fda9aa5c33cd8d877-f43908e3306b3dec9836d93029d95b0a-1788905072-1788903272
 #EXTINF:-1 tvg-id="trt_cocuk" tvg-name="TRT Cocuk" tvg-logo="" group-title="قنوات اطفال Kids TV",TRT Cocuk
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="moonbug_kids" tvg-name="Moonbug Kids" tvg-logo="" group-title="قنوات اطفال Kids TV",Moonbug Kids
