@@ -10,9 +10,9 @@ https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8
 #EXTINF:-1 tvg-id="bbcarab_ar1" tvg-name="BBC Arabic" tvg-logo="" group-title="قنوات عربية عالمية",BBC Arabic
 https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.m3u8
 #EXTINF:-1 tvg-id="africanews_en" tvg-name="AfricaNews EN" tvg-logo="" group-title="قنوات عربية عالمية",AfricaNews EN
-https://cdn-euronews.akamaized.net/live/eds/africanews-en/25098/africanews-en.m3u8?hdnea=exp=1789041954~acl=*~hmac=ba4a3afde8b4a8fd83b8f651a383fe8b3bf7850a92a14ab3d145498f481ef3d7
+https://cdn-euronews.akamaized.net/live/eds/africanews-en/25098/africanews-en.m3u8?hdnea=exp=1789056337~acl=*~hmac=cfb993acd00e20ea5cf9a3734f8efeec3b4cd69f8fa5a8be1bf53ed3e892a963
 #EXTINF:-1 tvg-id="africanews_fr" tvg-name="AfricaNews FR" tvg-logo="" group-title="قنوات عربية عالمية",AfricaNews FR
-https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25097/africanews-fr.m3u8?hdnea=exp=1789041954~acl=*~hmac=ba4a3afde8b4a8fd83b8f651a383fe8b3bf7850a92a14ab3d145498f481ef3d7
+https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25097/africanews-fr.m3u8?hdnea=exp=1789056337~acl=*~hmac=cfb993acd00e20ea5cf9a3734f8efeec3b4cd69f8fa5a8be1bf53ed3e892a963
 #EXTINF:-1 tvg-id="alalam1" tvg-name="Al Alam News" tvg-logo="" group-title="قنوات عربية عالمية",Al Alam News
 https://raw.elahmad.net/https://live2.alalam.ir/live/Alalam_low/index.m3u8
 #EXTINF:-1 tvg-id="almasirah_tv" tvg-name="Al Masirah TV" tvg-logo="" group-title="قنوات عربية عالمية",Al Masirah TV
@@ -21,8 +21,6 @@ https://live.cdnbridge.tv/Almasirah/Almasirah_all/playlist.m3u8
 https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="presstv_en" tvg-name="Press tv" tvg-logo="" group-title="قنوات عربية عالمية",Press tv
 https://live.presstv.co.uk/hls/presstv.m3u8?v=9e45ccfa
-#EXTINF:-1 tvg-id="almaareftv" tvg-name="Al Maarif" tvg-logo="" group-title="قنوات عربية عالمية",Al Maarif
-https://bucharest.zeuscdn724.com/lb0/CH-AL-MA/index.m3u8
 #EXTINF:-1 tvg-id="almagharibia" tvg-name="Al Magharibia" tvg-logo="" group-title="قنوات عربية عالمية",Al Magharibia
 https://www.elahmad.ru/tv/youtube.php?id=almagharibia
 #EXTINF:-1 tvg-id="skynews" tvg-name="Sky News" tvg-logo="" group-title="قنوات عربية عالمية",Sky News
