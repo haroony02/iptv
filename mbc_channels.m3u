@@ -1,3 +1,5 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="mbcmasr_tv_1" tvg-name="Mbc Masr" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc Masr
+https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8
 #EXTINF:-1 tvg-id="mbc_variety" tvg-name="Mbc Variety" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc Variety
-https://games1.elahmad.store/tv15_www_elahmad._mbc_variety/index.m3u8?token=8cfd438e4bd391ec7d6c4c77fe7917734575aa03-639d0079404da9863b952cc5840a9ae4-1789249079-1789247279
+https://games1.elahmad.store/tv15_www_elahmad._mbc_variety/index.m3u8?token=dd37a7aab50715d92b02cd3748c1d8f2cc3f9a70-af6c28d792e5548653ed849932744631-1789256348-1789254548
