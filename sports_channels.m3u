@@ -1,14 +1,8 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="al_sharjah_sport1" tvg-name="SharjahSports" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",SharjahSports
-https://live.kwikmotion.com/smc4sportslive/smc4tv.smil/playlist.m3u8?hdnts=exp=1789631749~acl=/smc4sportslive/smc4tv.smil/*~hmac=8addf2a26516b7ec168091c2355c97c57629b17a6683042fb378fc0edbadd0ca
-#EXTINF:-1 tvg-id="ktv_sport1" tvg-name="الكويت الرياضية" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",الكويت الرياضية
-https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="kw_sport_plus1" tvg-name="Sport Plus" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Sport Plus
-https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="alrabiaa_one" tvg-name="Al Rabiaa one" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Al Rabiaa one
-https://games2.elahmad.store/tv16_www_elahmad._alrabiaa_1/index.m3u8?token=64f045c0e91ccaa0e40c882d97f69b1d92231c5c-5fa42bfbb40b442c3899ef59833d3fc7-1789633438-1789631638
+https://games2.elahmad.store/tv16_www_elahmad._alrabiaa_1/index.m3u8?token=500e9fb5f786dbddfe4197d4935cfc5a9d9872e2-2e4b04097bc2190d8f2581ed8fb1486b-1789651838-1789650038
 #EXTINF:-1 tvg-id="alrabiaa_two" tvg-name="Al Rabiaa two" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Al Rabiaa two
-https://games2.elahmad.store/tv16_www_elahmad._alrabiaa_2/index.m3u8?token=178fe8c34e1611b8fb72a13527082854e45fdd50-1f8392c02100ad15c1783554daa05057-1789633439-1789631639
+https://games2.elahmad.store/tv16_www_elahmad._alrabiaa_2/index.m3u8?token=00c82490f42b5261977f2f467961afb91876305c-aa7e011fb9671f865ef9630758939994-1789651842-1789650042
 #EXTINF:-1 tvg-id="omansport" tvg-name="عمان الرياضية" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",عمان الرياضية
 https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="bahrain_sport" tvg-name="البحرين الرياضية 1" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",البحرين الرياضية 1
@@ -16,14 +10,14 @@ https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8
 #EXTINF:-1 tvg-id="bahrain_sport_2" tvg-name="البحرين الرياضية 2" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",البحرين الرياضية 2
 https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8
 #EXTINF:-1 tvg-id="palestine_sport" tvg-name="فلسطين الرياضية" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",فلسطين الرياضية
-https://games1.elahmad.store/tv16_www_elahmad._palestine_sport/index.m3u8?token=0908f41e5b53fc44a86dc788946c91344a3183a3-5ae2365fd42327f13e3b00c2941cbb74-1789633456-1789631656
+https://games1.elahmad.store/tv16_www_elahmad._palestine_sport/index.m3u8?token=dd8757f9a16501e2c087166468078dbe825043d9-67acf9d6fbdb7fbf6d055272f0c0346c-1789651883-1789650083
 #EXTINF:-1 tvg-id="jordan_sport1" tvg-name="Jordan Sport" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Jordan Sport
-https://games1.elahmad.store/tv16_www_elahmad._jordan_sport/index.m3u8?token=f34c507e3c873c45792d83d55765f42408f105a7-db9a0d2abbff52744a44d218d8d3c5d7-1789633457-1789631657
+https://games1.elahmad.store/tv16_www_elahmad._jordan_sport/index.m3u8?token=7cc89e6e822f21c557fcad15d829c748b91cf877-6d3019b300b09cbd0343c8de3b8ca061-1789651889-1789650089
 #EXTINF:-1 tvg-id="arryadia1" tvg-name="الرياضية المغربية" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",الرياضية المغربية
-https://cdn.live.easybroadcast.io/abr_corp/73_arryadia_k2tgcj0/playlist_dvr.m3u8?token=xrD2Z7ndTTiy_bBin578FLe5Wu8kJUtex0H3XRKjnnA&token_path=%2Fabr_corp%2F73_arryadia_k2tgcj0&expires=1789635318
+https://cdn.live.easybroadcast.io/abr_corp/73_arryadia_k2tgcj0/playlist_dvr.m3u8?token=vLJV7nUStTZ5XFZaY4x7rNEAmg7iv_gUtZ71UsFXgs0&token_path=%2Fabr_corp%2F73_arryadia_k2tgcj0&expires=1789653754
 #EXTINF:-1 tvg-id="mauritanie_sport" tvg-name="Mauritanie sport" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Mauritanie sport
-https://games2.elahmad.store/tv16_www_elahmad._mauritanie_sport/index.m3u8?token=02130512d7132c098a6684eedf96e75ca0376758-be92c34606f7d82c6726dedd83d0ccb3-1789633463-1789631663
+https://games2.elahmad.store/tv16_www_elahmad._mauritanie_sport/index.m3u8?token=83918946f0d7d1f042a7885b8adc512a13ed7318-e7629d68c2c4df0b374db1b1cc477dc8-1789651918-1789650118
 #EXTINF:-1 tvg-id="libya_sport" tvg-name="Libya Sports" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Libya Sports
-https://games2.elahmad.store/tv16_www_elahmad._libya_sport/index.m3u8?token=3c8be34cdd4cadc58ebf615ea38366c87ae615af-270119d1993366ee0a975ac23edbbfa3-1789633464-1789631664
+https://games2.elahmad.store/tv16_www_elahmad._libya_sport/index.m3u8?token=4e662d115b2f0e5b47cb7e3ec7bdca82485e0861-baa1993be1477c4548f6fdb6789194e1-1789651922-1789650122
 #EXTINF:-1 tvg-id="ard_live" tvg-name="ARD Live" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",ARD Live
 https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
