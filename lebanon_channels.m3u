@@ -4,13 +4,13 @@ https://live.kwikmotion.com/futurelive/ftv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="future1" tvg-name="قناة المستقبل" tvg-logo="" group-title="قنوات لبنان",قناة المستقبل
 https://live.kwikmotion.com/futurelive/ftv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="aljadeed1" tvg-name="تلفزيون الجديد" tvg-logo="" group-title="قنوات لبنان",تلفزيون الجديد
-https://games1.elahmad.store/tv16_www_elahmad._aljadeed/index.m3u8?token=4ff3bb2feb7b109f361663bb496b2212f7610d44-52140851f938eb48bfabd10478486732-1789613491-1789611691
+https://games1.elahmad.store/tv16_www_elahmad._aljadeed/index.m3u8?token=36fa2db16a437c45b7ae71a4d8c5a86f035191f1-ce1e9cdf8e22fcbfe82f25e76d3204da-1789633594-1789631794
 #EXTINF:-1 tvg-id="lb2" tvg-name="LB2 International" tvg-logo="" group-title="قنوات لبنان",LB2 International
-https://games1.elahmad.store/tv16_www_elahmad._lb2/index.m3u8?token=fb6f584041b5f1104b5e7d70d4b7abc87c0d332d-3398a13d1bc587dd67fda9a933183ca5-1789613493-1789611693
+https://games1.elahmad.store/tv16_www_elahmad._lb2/index.m3u8?token=eb8e8ccdfde1b808b1ca3324994e7532020aa681-212784c68c69db52464caafc3eebd861-1789633595-1789631795
 #EXTINF:-1 tvg-id="lbc_1" tvg-name="LDC Leb" tvg-logo="" group-title="قنوات لبنان",LDC Leb
-https://games1.elahmad.store/tv16_www_elahmad._lbc/index.m3u8?token=18feda7aa588d4ee9b04aa7d09902819e0dc6331-11abb04a8e6b0fa4c0b6703edf50814f-1789613494-1789611694
+https://games1.elahmad.store/tv16_www_elahmad._lbc/index.m3u8?token=b8619dcc091939972056445dbcee5046eb58f96c-a2703314feee08336c65941c05a086e7-1789633598-1789631798
 #EXTINF:-1 tvg-id="otv_lebanon" tvg-name="Otv Lebanon" tvg-logo="" group-title="قنوات لبنان",Otv Lebanon
-https://games1.elahmad.store/tv16_www_elahmad._otv_lebanon/index.m3u8?token=02d444bd33f7caed445b20e8bf81ef172a93f593-852d6e8f03dcaec9c9afd2c73469dd11-1789613498-1789611698
+https://games1.elahmad.store/tv16_www_elahmad._otv_lebanon/index.m3u8?token=b23ff1171a3f7dc3c46c34b03d299328c49d95f6-a100ff6c62b2c695976969718e9f36a7-1789633601-1789631801
 #EXTINF:-1 tvg-id="vdltv" tvg-name="VDL 24" tvg-logo="" group-title="قنوات لبنان",VDL 24
 https://svs.itworkscdn.net/vdltvlive/vdltv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="manartv1" tvg-name="قناة المنار" tvg-logo="" group-title="قنوات لبنان",قناة المنار
@@ -18,9 +18,11 @@ https://edge.fastpublish.me/live/index.m3u8
 #EXTINF:-1 tvg-id="manartv2" tvg-name="قناة المنار" tvg-logo="" group-title="قنوات لبنان",قناة المنار
 https://edge.fastpublish.me/live/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="nbn" tvg-name="NBN Lebanon" tvg-logo="" group-title="قنوات لبنان",NBN Lebanon
-https://games1.elahmad.store/tv16_www_elahmad._nbn/index.m3u8?token=c62db0adb43b2d968abf37ff427de1f50c0a4a18-680425429c0dfc8f31777069c4edb7c8-1789613506-1789611706
+https://games1.elahmad.store/tv16_www_elahmad._nbn/index.m3u8?token=7687752ce170134793a24ed7919d784b63401393-1c279a1b76a06a517661682183ee3d12-1789633608-1789631808
 #EXTINF:-1 tvg-id="almayadeen1" tvg-name="قناة الميادين" tvg-logo="" group-title="قنوات لبنان",قناة الميادين
 https://mdnlv.cdn.octivid.com/almdn/smil:mpegts.stream.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="teleliban" tvg-name="تلفزيون لبنان" tvg-logo="" group-title="قنوات لبنان",تلفزيون لبنان
+https://cdn.catiacast.video/abr/ed8f807e2548db4507d2a6f4ba0c4a06/playlist.m3u8
 #EXTINF:-1 tvg-id="tvseventeen" tvg-name="Seventeen" tvg-logo="" group-title="قنوات لبنان",Seventeen
 https://raw.elahmad.net/http://stream.spilebanon.com:1935/spi/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="newvision" tvg-name="U News" tvg-logo="" group-title="قنوات لبنان",U News
