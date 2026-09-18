@@ -1,26 +1,44 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="iran_international" tvg-name="Iran International" tvg-logo="" group-title="قنوات عربية عالمية",Iran International
-https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="qaftv" tvg-name="Qaf Tv" tvg-logo="" group-title="قنوات عربية عالمية",Qaf Tv
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="islamchannel" tvg-name="Islam TV" tvg-logo="" group-title="قنوات عربية عالمية",Islam TV
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="alhurra" tvg-name="Alhurra TV" tvg-logo="" group-title="قنوات عربية عالمية",Alhurra TV
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="alhiwar1" tvg-name="Al Hiwar TV" tvg-logo="" group-title="قنوات عربية عالمية",Al Hiwar TV
-https://mn-nl.mncdn.com/alhiwar_live/smil:alhiwar.smil/playlist.m3u8?v=9e45ccfa
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="trt_arabic1" tvg-name="TRT Arabi" tvg-logo="" group-title="قنوات عربية عالمية",TRT Arabi
-https://tv-trtarabi.medya.trt.com.tr/master.m3u8?v=9e45ccfa
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="DWelle1" tvg-name="DW Arabic" tvg-logo="" group-title="قنوات عربية عالمية",DW Arabic
-https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="bbcarab_ar1" tvg-name="BBC Arabic" tvg-logo="" group-title="قنوات عربية عالمية",BBC Arabic
-https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.m3u8
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="africanews_en" tvg-name="AfricaNews EN" tvg-logo="" group-title="قنوات عربية عالمية",AfricaNews EN
-https://cdn-euronews.akamaized.net/live/eds/africanews-en/25098/africanews-en.m3u8?hdnea=exp=1789772575~acl=*~hmac=6c849f975fa8544a9ee6a2b60fd67fe36ff82feea3d1cefdab2cca4401141e4a
+https://cdn-euronews.akamaized.net/live/eds/africanews-en/25098/africanews-en.m3u8?hdnea=exp=1789779339~acl=*~hmac=55af0e17883b0d2d785175301688e76c7670878beeb7ddbc0eeff32d7d6f9af8
 #EXTINF:-1 tvg-id="africanews_fr" tvg-name="AfricaNews FR" tvg-logo="" group-title="قنوات عربية عالمية",AfricaNews FR
-https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25097/africanews-fr.m3u8?hdnea=exp=1789772575~acl=*~hmac=6c849f975fa8544a9ee6a2b60fd67fe36ff82feea3d1cefdab2cca4401141e4a
+https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25097/africanews-fr.m3u8?hdnea=exp=1789779339~acl=*~hmac=55af0e17883b0d2d785175301688e76c7670878beeb7ddbc0eeff32d7d6f9af8
+#EXTINF:-1 tvg-id="cgtn_arabic" tvg-name="CGTN Arabic" tvg-logo="" group-title="قنوات عربية عالمية",CGTN Arabic
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="alalam1" tvg-name="Al Alam News" tvg-logo="" group-title="قنوات عربية عالمية",Al Alam News
-https://raw.elahmad.net/https://live2.alalam.ir/live/Alalam_low/index.m3u8
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="alalam2" tvg-name="Al Alam News" tvg-logo="" group-title="قنوات عربية عالمية",Al Alam News
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="alalamsyria" tvg-name="Alalam Syria" tvg-logo="" group-title="قنوات عربية عالمية",Alalam Syria
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="almasirah_tv" tvg-name="Al Masirah TV" tvg-logo="" group-title="قنوات عربية عالمية",Al Masirah TV
-https://live.cdnbridge.tv/Almasirah/Almasirah_all/playlist.m3u8
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="cnn1" tvg-name="CNN Mews" tvg-logo="" group-title="قنوات عربية عالمية",CNN Mews
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="cnn2" tvg-name="CNN Mews" tvg-logo="" group-title="قنوات عربية عالمية",CNN Mews
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="foxnews" tvg-name="Fox News" tvg-logo="" group-title="قنوات عربية عالمية",Fox News
-https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="presstv_en" tvg-name="Press tv" tvg-logo="" group-title="قنوات عربية عالمية",Press tv
-https://live.presstv.co.uk/hls/presstv.m3u8?v=9e45ccfa
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="almaareftv" tvg-name="Al Maarif" tvg-logo="" group-title="قنوات عربية عالمية",Al Maarif
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="almagharibia" tvg-name="Al Magharibia" tvg-logo="" group-title="قنوات عربية عالمية",Al Magharibia
 https://www.elahmad.ru/tv/youtube.php?id=almagharibia
 #EXTINF:-1 tvg-id="skynews" tvg-name="Sky News" tvg-logo="" group-title="قنوات عربية عالمية",Sky News

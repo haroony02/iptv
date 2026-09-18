@@ -1,25 +1,31 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="kuwait_1" tvg-name="الكويت الاولى" tvg-logo="" group-title="قنوات الكويت",الكويت الاولى
-https://kwtktv1ta.cdn.mangomolo.com/ktv1/smil:ktv1.stream.smil/chunklist.m3u8
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="kuwait_2" tvg-name="الكويت الثانية" tvg-logo="" group-title="قنوات الكويت",الكويت الثانية
-https://kwtktv2ta.cdn.mangomolo.com/ktv2/smil:ktv2.stream.smil/chunklist.m3u8
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="kw_almajlis1" tvg-name="قناة المجلس" tvg-logo="" group-title="قنوات الكويت",قناة المجلس
-https://kwtsplta.cdn.mangomolo.com/kb/smil:kb.stream.smil/chunklist.m3u8
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="kw_arabe1" tvg-name="العربي الكويتية" tvg-logo="" group-title="قنوات الكويت",العربي الكويتية
-https://kwtktvata.cdn.mangomolo.com/ktva/smil:tktva.stream.smil/chunklist.m3u8
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="kw_ethraa1" tvg-name="اثراء الكويتية" tvg-logo="" group-title="قنوات الكويت",اثراء الكويتية
-https://kwtethta.cdn.mangomolo.com/eth/smil:eth.stream.smil/chunklist.m3u8
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="kw_plus1" tvg-name="قناة القرين" tvg-logo="" group-title="قنوات الكويت",قناة القرين
-https://kwtktvaqta.cdn.mangomolo.com/ktvaq/smil:tktvaq.stream.smil/chunklist.m3u8
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="ktvkids_1" tvg-name="خليك بالبيت" tvg-logo="" group-title="قنوات الكويت",خليك بالبيت
-https://kwtsplta.cdn.mangomolo.com/kb/smil:kb.stream.smil/chunklist.m3u8
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="funoon1" tvg-name="قناة فنون" tvg-logo="" group-title="قنوات الكويت",قناة فنون
-https://games1.elahmad.store/tv16_www_elahmad._funoon/index.m3u8?token=e3f1ab5aed86e288d4ad61d57acac60c5fda40d0-eebb5ed8a6fb56c35453887a8f86b86e-1789688024-1789686224
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="alrai" tvg-name="قناة الراي" tvg-logo="" group-title="قنوات الكويت",قناة الراي
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="alsabahtv" tvg-name="قناة الصباح" tvg-logo="" group-title="قنوات الكويت",قناة الصباح
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="atvkuwait" tvg-name="قناة العدالة" tvg-logo="" group-title="قنوات الكويت",قناة العدالة
-https://games1.elahmad.store/tv16_www_elahmad._aladalah/index.m3u8?token=c8036243b5b61396ef4f0709c7371c8663cb5969-0bd48653c2db88e4950608caebbeafd4-1789688038-1789686238
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="alshahed_tv" tvg-name="قناه الشاهد" tvg-logo="" group-title="قنوات الكويت",قناه الشاهد
-https://games1.elahmad.store/tv16_www_elahmad._alshahed/index.m3u8?token=c283cb8f48edd930cafb530491139ec242c08b51-615a610a02230918837515b281acac56-1789688040-1789686240
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="bawaditv" tvg-name="قناة البوادي" tvg-logo="" group-title="قنوات الكويت",قناة البوادي
-https://games1.elahmad.store/tv16_www_elahmad._albawadi/index.m3u8?token=2890b4cfe98a1a6ff6dee934e2f161863df00098-df94d22e6b0df30a9e3fe52e3282771e-1789688042-1789686242
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="alresalah1" tvg-name="قناة الرسالة" tvg-logo="" group-title="قنوات الكويت",قناة الرسالة
-https://games1.elahmad.store/tv16_www_elahmad._alresalah/index.m3u8?token=a87289ab35d4d77e820cff399022c53c4ba91173-8797ef7e98ce5810fdf98cc4b67d67c8-1789688043-1789686243
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="alafasytv" tvg-name="قناة العفاسي" tvg-logo="" group-title="قنوات الكويت",قناة العفاسي
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8

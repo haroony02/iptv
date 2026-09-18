@@ -1,5 +1,55 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="mbc1_tv_1" tvg-name="Mbc 1" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc 1
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="mbc1_tv_2" tvg-name="Mbc 1" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc 1
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="mbc1_usa" tvg-name="Mbc 1 USA" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc 1 USA
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="mbc2_tv_1" tvg-name="Mbc 2" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc 2
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="mbc3_tv_1" tvg-name="Mbc 3" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc 3
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="mbc3_eur" tvg-name="Mbc 3 eur" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc 3 eur
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="mbc3_usa" tvg-name="Mbc 3 USA" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc 3 USA
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="mbc4_tv_1" tvg-name="Mbc 4" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc 4
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="mbc5_tv_1" tvg-name="Mbc 5" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc 5
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="mbc5_tv_2" tvg-name="Mbc 5" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc 5
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="mbcdrama_tv_1" tvg-name="Mbc Drama" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc Drama
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="mbcdrama_usa" tvg-name="Mbc Drama USA" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc Drama USA
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="mbc_drama_plus" tvg-name="Drama Plus" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Drama Plus
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="mbc_drama_plus_2" tvg-name="Drama Plus" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Drama Plus
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="mbcaction_tv_1" tvg-name="Mbc Action" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc Action
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="mbcaction_tv_2" tvg-name="Mbc Action" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc Action
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="mbcmax_tv_1" tvg-name="Mbc Max" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc Max
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="mbcmax_tv_2" tvg-name="Mbc Max" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc Max
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="mbcmasr_tv_1" tvg-name="Mbc Masr" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc Masr
-https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="mbcmasr_tv_2" tvg-name="Mbc Masr" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc Masr
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="mbc_masr_usa" tvg-name="Mbc Masr 1 USA" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc Masr 1 USA
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="mbcmasr2_tv_1" tvg-name="Mbc Masr+2" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc Masr+2
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="mbcmasr2_tv_2" tvg-name="Mbc Masr+2" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc Masr+2
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="mbc_masr_drama" tvg-name="mbc masr drama" tvg-logo="" group-title="قنوات ام بي سي MBC Group",mbc masr drama
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="mbciraq_tv_1" tvg-name="Mbc Iraq" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc Iraq
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="mbc_variety" tvg-name="Mbc Variety" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc Variety
-https://games1.elahmad.store/tv16_www_elahmad._mbc_variety/index.m3u8?token=c33f9b12a21404872dca2f85ca0f6f65bdeece07-1dcf85088612ca9a7f4d66f6c8515c83-1789687756-1789685956
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="mbc_persia" tvg-name="Mbc Persia" tvg-logo="" group-title="قنوات ام بي سي MBC Group",Mbc Persia
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
