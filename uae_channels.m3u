@@ -12,8 +12,10 @@ https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="al_sharjah_sport1" tvg-name="Sharjah Sports" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",Sharjah Sports
 https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="al_sharjah_sport2" tvg-name="Sharjah Sports2" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",Sharjah Sports2
-https://live.kwikmotion.com/smc4sports2live/sports2.smil/playlist.m3u8?hdnts=exp=1789752130~acl=/smc4sports2live/sports2.smil/*~hmac=bc686620a66bbbd9141edb4f638eee0afdf7407b13095eef98e391f50e1d1bb8
+https://live.kwikmotion.com/smc4sports2live/sports2.smil/playlist.m3u8?hdnts=exp=1789760895~acl=/smc4sports2live/sports2.smil/*~hmac=5d721242bb005ab8fc1960a863d1eec268584ea4059c02af30643e50607774ae
 #EXTINF:-1 tvg-id="alwousta" tvg-name="AlWousta" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",AlWousta
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="fujtv" tvg-name="Fujairah TV" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",Fujairah TV
 https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="aldafrah_tv" tvg-name="قناة الظفرة" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",قناة الظفرة
 https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
