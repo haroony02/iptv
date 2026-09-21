@@ -12,7 +12,7 @@ https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="al_sharjah_sport1" tvg-name="Sharjah Sports" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",Sharjah Sports
 https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="al_sharjah_sport2" tvg-name="Sharjah Sports2" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",Sharjah Sports2
-https://live.kwikmotion.com/smc4sports2live/sports2.smil/playlist.m3u8?hdnts=exp=1790000677~acl=/smc4sports2live/sports2.smil/*~hmac=bead0a124c8f7a17618e921f4e5bed2532c722022b62582837c7c1fbc5f9d8ed
+https://live.kwikmotion.com/smc4sports2live/sports2.smil/playlist.m3u8?hdnts=exp=1790019501~acl=/smc4sports2live/sports2.smil/*~hmac=543b5fdf006ff29616255822c783931e3db70b3c9c4b84e630d8e43094994fc1
 #EXTINF:-1 tvg-id="alwousta" tvg-name="AlWousta" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",AlWousta
 https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="fujtv" tvg-name="Fujairah TV" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",Fujairah TV
@@ -32,6 +32,16 @@ https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="yas_tv" tvg-name="Yas TV" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",Yas TV
 https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="fatafeat" tvg-name="قناة فتافيت" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",قناة فتافيت
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="abudhabi_sports1" tvg-name="Abu Dhabi Sports 1" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",Abu Dhabi Sports 1
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="abudhabi_sports2" tvg-name="Abu Dhabi Sports 2" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",Abu Dhabi Sports 2
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="abudhabi_sports3" tvg-name="Abu Dhabi Sports 3" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",Abu Dhabi Sports 3
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="abudhabi_sports4" tvg-name="Abu Dhabi Sports 4" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",Abu Dhabi Sports 4
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="expo_2020" tvg-name="Expo 2020" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",Expo 2020
 https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="skynewsarabia" tvg-name="سكاي نيوز" tvg-logo="" group-title="قنوات الامارات - دبي وابوظبي",سكاي نيوز
 https://www.elahmad.ru/tv/youtube.php?id=skynewsarabia
