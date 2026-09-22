@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-22 11:58:12",
-  "total_channels": 354,
+  "generated": "2026-09-22 15:54:26",
+  "total_channels": 325,
   "channels": [
     {
       "name": "قناة الجزيرة",
@@ -103,7 +103,7 @@
     {
       "name": "قناة براعم",
       "category": "قنوات قطر - الجزيرة",
-      "stream_url": "https://games1.elahmad.store/tv16_www_elahmad._baraem1/index.m3u8?token=b2a0455a53d9817bed5acd2ad6c7a1045c9d1777-9526d196fdf8638b5509b7496931a402-1790079728-1790077928",
+      "stream_url": "https://games1.elahmad.store/tv16_www_elahmad._baraem1/index.m3u8?token=62c7b0ad74a5a567cd4dcfa4f4709abbb064d67a-63e797b1d77d48c65a969db0deee9ab8-1790093855-1790092055",
       "stream_id": "baraem",
       "player_type": "watchtv"
     },
@@ -117,7 +117,7 @@
     {
       "name": "القرآن الكريم",
       "category": "قنوات السعودية - SBC وMBC والرياضية",
-      "stream_url": "https://live.kwikmotion.com/ksaquranlive/ksaquran.smil/playlist_dvr.m3u8?hdnts=exp=1790078001~acl=/ksaquranlive/ksaquran.smil/*~hmac=16cd654110dca5065a7bec8f86a1374509e399763a2f3e2353e97bd412f35290",
+      "stream_url": "https://live.kwikmotion.com/ksaquranlive/ksaquran.smil/playlist_dvr.m3u8?hdnts=exp=1790092130~acl=/ksaquranlive/ksaquran.smil/*~hmac=d6cb0130037c6707f5218bf369fcabba8801f8d36848a2cb1545fb27c44943de",
       "stream_id": "qoran_tv",
       "player_type": "watchtv"
     },
@@ -138,6 +138,13 @@
     {
       "name": "السنة النبوية",
       "category": "قنوات السعودية - SBC وMBC والرياضية",
+      "stream_url": "https://live.kwikmotion.com/ksasunnalive/ksasunna.smil/playlist_dvr.m3u8?hdnts=exp=1790092134~acl=/ksasunnalive/ksasunna.smil/*~hmac=5a8c90aa43b8a5627489ef2e8f4d8119799d0b2b160cbf474332520114323adb",
+      "stream_id": "sunna_tv",
+      "player_type": "watchtv"
+    },
+    {
+      "name": "السنة النبوية",
+      "category": "قنوات السعودية - SBC وMBC والرياضية",
       "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
       "stream_id": "suna_tv1",
       "player_type": "glarb"
@@ -152,7 +159,7 @@
     {
       "name": "الأولى السعودية",
       "category": "قنوات السعودية - SBC وMBC والرياضية",
-      "stream_url": "https://live.kwikmotion.com/ksa1live/ksa1.smil/playlist_dvr.m3u8?hdnts=exp=1790078008~acl=/ksa1live/ksa1.smil/*~hmac=715d814747904e17c941e93bfb0b46d5cd6e7c046bd5657429f6f370c3ccc809",
+      "stream_url": "https://live.kwikmotion.com/ksa1live/ksa1.smil/playlist_dvr.m3u8?hdnts=exp=1790092137~acl=/ksa1live/ksa1.smil/*~hmac=93864c9a80fb7ff3791fb56fc780eda04cadd8e20252dec4641251698600f0e8",
       "stream_id": "saudi_tv",
       "player_type": "watchtv"
     },
@@ -162,13 +169,6 @@
       "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
       "stream_id": "saudi_1",
       "player_type": "glarb"
-    },
-    {
-      "name": "القناة الإخبارية",
-      "category": "قنوات السعودية - SBC وMBC والرياضية",
-      "stream_url": "https://live.kwikmotion.com/ikhbariyalive/ikhbariya.smil/playlist_dvr.m3u8?hdnts=exp=1790078010~acl=/ikhbariyalive/ikhbariya.smil/*~hmac=66d9387d11402569bbeeb19b78a1afe352470e53e7a4eaf3f605132a833f991c",
-      "stream_id": "saudi_ekhbariya",
-      "player_type": "watchtv"
     },
     {
       "name": "القناة الإخبارية",
@@ -185,17 +185,31 @@
       "player_type": "glarb"
     },
     {
-      "name": "KSA Sports 1",
+      "name": "KSA Sports 3",
       "category": "قنوات السعودية - SBC وMBC والرياضية",
-      "stream_url": "https://live.kwikmotion.com/ksasports1live/ksasports1.smil/playlist_dvr.m3u8?hdnts=exp=1790078013~acl=/ksasports1live/ksasports1.smil/*~hmac=dd72cb2863678d07ba6e3a7272719d0a1b28d27ecb3a16348fe5113c48ce3895",
-      "stream_id": "saudi_sport",
+      "stream_url": "https://live.kwikmotion.com/ksasports3live/ksasports3.smil/playlist_dvr.m3u8?hdnts=exp=1790092147~acl=/ksasports3live/ksasports3.smil/*~hmac=b5224382730203b2903ba635b2028926514d67d0d5dd97afe2823ee6bde08069",
+      "stream_id": "saudi_sport3",
+      "player_type": "watchtv"
+    },
+    {
+      "name": "KSA Sports 4",
+      "category": "قنوات السعودية - SBC وMBC والرياضية",
+      "stream_url": "https://live.kwikmotion.com/ksasports4live/ksasports4.smil/playlist_dvr.m3u8?hdnts=exp=1790092149~acl=/ksasports4live/ksasports4.smil/*~hmac=59ab231c050d378a29045fbb33bf3c601ad6c8e159576b54a3dfb7dac5961e08",
+      "stream_id": "saudi_sport4",
       "player_type": "watchtv"
     },
     {
       "name": "SBC Channel",
       "category": "قنوات السعودية - SBC وMBC والرياضية",
-      "stream_url": "https://live.kwikmotion.com/sbclive/sbc.smil/playlist_dvr.m3u8?hdnts=exp=1790078019~acl=/sbclive/sbc.smil/*~hmac=d361a556ca96516b6653f7e89367abb64a4610b10a582fd1c47fb821f6235f86",
+      "stream_url": "https://live.kwikmotion.com/sbclive/sbc.smil/playlist_dvr.m3u8?hdnts=exp=1790092150~acl=/sbclive/sbc.smil/*~hmac=79214ba0b76bcef0d1607b7c56108af0f20a37b1106dadd55c9d34d3fc95aa1b",
       "stream_id": "sbc_tv",
+      "player_type": "watchtv"
+    },
+    {
+      "name": "قناة ذكريات",
+      "category": "قنوات السعودية - SBC وMBC والرياضية",
+      "stream_url": "https://live.kwikmotion.com/zikrayatlive/zikrayat.smil/playlist_dvr.m3u8?hdnts=exp=1790092152~acl=/zikrayatlive/zikrayat.smil/*~hmac=6121385084457046384b5038f29c84d14a798223c13826f3b3021aed269c1e66",
+      "stream_id": "thikrayat_tv",
       "player_type": "watchtv"
     },
     {
@@ -208,7 +222,7 @@
     {
       "name": "السعودية الآن",
       "category": "قنوات السعودية - SBC وMBC والرياضية",
-      "stream_url": "https://live.kwikmotion.com/ksasports4live/ksasports4.smil/playlist_dvr.m3u8?hdnts=exp=1790078023~acl=/ksasports4live/ksasports4.smil/*~hmac=dabd54a5709271b7615ae60c4d6f57282c86ac254d87b5eeec26a656d624b7ee",
+      "stream_url": "https://live.kwikmotion.com/ksasports4live/ksasports4.smil/playlist_dvr.m3u8?hdnts=exp=1790092155~acl=/ksasports4live/ksasports4.smil/*~hmac=c673a9b6610bbe80ff815f055e75d1fc5ac75ddc4b725e485ae4870463165242",
       "stream_id": "saudi_now",
       "player_type": "watchtv"
     },
@@ -332,62 +346,6 @@
       "player_type": "glarb"
     },
     {
-      "name": "Noble TV",
-      "category": "قنوات السعودية - SBC وMBC والرياضية",
-      "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
-      "stream_id": "noble_tv",
-      "player_type": "glarb"
-    },
-    {
-      "name": "القرآن الكريم",
-      "category": "قنوات السعودية - SBC وMBC والرياضية",
-      "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
-      "stream_id": "qoran_tv3",
-      "player_type": "glarb"
-    },
-    {
-      "name": "القرآن الكريم",
-      "category": "قنوات السعودية - SBC وMBC والرياضية",
-      "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
-      "stream_id": "qoran_tv4",
-      "player_type": "glarb"
-    },
-    {
-      "name": "السنة النبوية",
-      "category": "قنوات السعودية - SBC وMBC والرياضية",
-      "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
-      "stream_id": "suna_tv3",
-      "player_type": "glarb"
-    },
-    {
-      "name": "السنة النبوية",
-      "category": "قنوات السعودية - SBC وMBC والرياضية",
-      "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
-      "stream_id": "suna_tv4",
-      "player_type": "glarb"
-    },
-    {
-      "name": "قناة المعالي",
-      "category": "قنوات السعودية - SBC وMBC والرياضية",
-      "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
-      "stream_id": "m3alitv",
-      "player_type": "glarb"
-    },
-    {
-      "name": "قناة بداية الفضائية‏",
-      "category": "قنوات السعودية - SBC وMBC والرياضية",
-      "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
-      "stream_id": "bedaya",
-      "player_type": "glarb"
-    },
-    {
-      "name": "الأولى السعودية",
-      "category": "قنوات السعودية - SBC وMBC والرياضية",
-      "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
-      "stream_id": "saudi_channel_one",
-      "player_type": "glarb"
-    },
-    {
       "name": "سكاي نيوز",
       "category": "قنوات الامارات - دبي وابوظبي",
       "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
@@ -432,7 +390,7 @@
     {
       "name": "Sharjah Sports2",
       "category": "قنوات الامارات - دبي وابوظبي",
-      "stream_url": "https://live.kwikmotion.com/smc4sports2live/sports2.smil/playlist.m3u8?hdnts=exp=1790078100~acl=/smc4sports2live/sports2.smil/*~hmac=3ed9e6ed97c14003a1cc86af698fc2995502b69fd337e81e7632fd5529f866da",
+      "stream_url": "https://live.kwikmotion.com/smc4sports2live/sports2.smil/playlist.m3u8?hdnts=exp=1790092232~acl=/smc4sports2live/sports2.smil/*~hmac=53c670dba47b16058a36428bb41ed58e9233e4754bc4ea8c5d3e08f8aa645662",
       "stream_id": "al_sharjah_sport2",
       "player_type": "watchtv"
     },
@@ -621,7 +579,7 @@
     {
       "name": "Sada Elbalad",
       "category": "قنوات مصرية - CBC وON وAlNahartv",
-      "stream_url": "https://games2.elahmad.store/tv16_www_elahmad._elbaladtv/index.m3u8?token=db4903f5123c9fcc70d183425d06bd6163442d2b-4d2b592507b113b0abd40ba5f1301fe6-1790079801-1790078001",
+      "stream_url": "https://games2.elahmad.store/tv16_www_elahmad._elbaladtv/index.m3u8?token=2a3aa9ad12a8105369c8eda8f7c5509e78d1a888-be96f8fda1227d6369d534d1eaf4fb96-1790093938-1790092138",
       "stream_id": "sadaelbalad",
       "player_type": "watchtv"
     },
@@ -649,7 +607,7 @@
     {
       "name": "dmc Live",
       "category": "قنوات مصرية - CBC وON وAlNahartv",
-      "stream_url": "https://games1.elahmad.store/tv16_www_elahmad._dmc/index.m3u8?token=3b1fe49004d7c25ee4651c6201abd08eee4ff5e2-36a03adaf3b37a1c2e1da4030ed23692-1790079807-1790078007",
+      "stream_url": "https://games1.elahmad.store/tv16_www_elahmad._dmc/index.m3u8?token=8ecb80e549eacdaba09efe73586680d17db4e071-590d4ecdfe5554c9ab07306106106cab-1790093945-1790092145",
       "stream_id": "dmc",
       "player_type": "watchtv"
     },
@@ -663,7 +621,7 @@
     {
       "name": "dmc Drama",
       "category": "قنوات مصرية - CBC وON وAlNahartv",
-      "stream_url": "https://games1.elahmad.store/tv16_www_elahmad._dmc_drama/index.m3u8?token=746c555802a294af4c9e14c65fde70718c3b1a9a-3a4a21d4a38f52ce0c53a9ca2e36b42e-1790079809-1790078009",
+      "stream_url": "https://games1.elahmad.store/tv16_www_elahmad._dmc_drama/index.m3u8?token=6ac511326c10f920a9baf6f4a937d828a6b5caf8-07cb47e6a1d1dc82137e67404f7f1bca-1790093948-1790092148",
       "stream_id": "dmc_drama",
       "player_type": "watchtv"
     },
@@ -775,7 +733,7 @@
     {
       "name": "AlHayat TV",
       "category": "قنوات مصرية - CBC وON وAlNahartv",
-      "stream_url": "https://games2.elahmad.store/tv16_www_elahmad._alhayat_eg/index.m3u8?token=1f0ad0e7377e40d362712bae59791902eb20799b-e6773d11197727964f519b9a4cb46e22-1790079822-1790078022",
+      "stream_url": "https://games2.elahmad.store/tv16_www_elahmad._alhayat_eg/index.m3u8?token=ae41d2b9b10694383f0aac7087dab500f81278b1-9090b202e49fd74979303448a5b1d0cf-1790093965-1790092165",
       "stream_id": "alhayat",
       "player_type": "watchtv"
     },
@@ -931,118 +889,6 @@
       "category": "قنوات مصرية - CBC وON وAlNahartv",
       "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
       "stream_id": "alqahera_news",
-      "player_type": "glarb"
-    },
-    {
-      "name": "Weyyak Drama",
-      "category": "قنوات مصرية - CBC وON وAlNahartv",
-      "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
-      "stream_id": "weyyak_drama",
-      "player_type": "glarb"
-    },
-    {
-      "name": "قناة مودة",
-      "category": "قنوات مصرية - CBC وON وAlNahartv",
-      "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
-      "stream_id": "mawadatv",
-      "player_type": "glarb"
-    },
-    {
-      "name": "omg tv",
-      "category": "قنوات مصرية - CBC وON وAlNahartv",
-      "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
-      "stream_id": "omg_tv",
-      "player_type": "glarb"
-    },
-    {
-      "name": "omg kids",
-      "category": "قنوات مصرية - CBC وON وAlNahartv",
-      "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
-      "stream_id": "omg_kids",
-      "player_type": "glarb"
-    },
-    {
-      "name": "omg muslim",
-      "category": "قنوات مصرية - CBC وON وAlNahartv",
-      "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
-      "stream_id": "omg_muslim",
-      "player_type": "glarb"
-    },
-    {
-      "name": "omg series",
-      "category": "قنوات مصرية - CBC وON وAlNahartv",
-      "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
-      "stream_id": "omg_series",
-      "player_type": "glarb"
-    },
-    {
-      "name": "omg sport",
-      "category": "قنوات مصرية - CBC وON وAlNahartv",
-      "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
-      "stream_id": "omg_sport",
-      "player_type": "glarb"
-    },
-    {
-      "name": "dream 1",
-      "category": "قنوات مصرية - CBC وON وAlNahartv",
-      "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
-      "stream_id": "dreamtv1",
-      "player_type": "glarb"
-    },
-    {
-      "name": "AlHayat 2",
-      "category": "قنوات مصرية - CBC وON وAlNahartv",
-      "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
-      "stream_id": "alhayat_2",
-      "player_type": "glarb"
-    },
-    {
-      "name": "الحياة والناس",
-      "category": "قنوات مصرية - CBC وON وAlNahartv",
-      "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
-      "stream_id": "alhayahwalnas",
-      "player_type": "glarb"
-    },
-    {
-      "name": "النهار اليوم",
-      "category": "قنوات مصرية - CBC وON وAlNahartv",
-      "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
-      "stream_id": "nahar_youm1",
-      "player_type": "glarb"
-    },
-    {
-      "name": "CairoDrama",
-      "category": "قنوات مصرية - CBC وON وAlNahartv",
-      "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
-      "stream_id": "cairo_drama",
-      "player_type": "glarb"
-    },
-    {
-      "name": "CairoCinema",
-      "category": "قنوات مصرية - CBC وON وAlNahartv",
-      "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
-      "stream_id": "cairo_cinema",
-      "player_type": "glarb"
-    },
-    {
-      "name": "قناة السلام عليك",
-      "category": "قنوات مصرية - CBC وON وAlNahartv",
-      "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
-      "stream_id": "salam1",
-      "player_type": "glarb"
-    },
-    {
-      "name": "النهار الرياضية",
-      "category": "قنوات مصرية - CBC وON وAlNahartv",
-      "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
-      "stream_id": "nahar_sport1",
-      "player_type": "glarb"
-    },
-    {
-      "name": "النهار نور",
-      "category": "قنوات مصرية - CBC وON وAlNahartv",
-      "stream_url": "https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8",
-      "stream_id": "alnaharnoor",
       "player_type": "glarb"
     },
     {
@@ -1319,24 +1165,17 @@
       "player_type": "glarb"
     },
     {
+      "name": "KSA Sports 1",
+      "category": "قنوات رياضية - BeIN وSSC وغيرها",
+      "stream_url": "https://live.kwikmotion.com/ksasports1live/ksasports1.smil/playlist_dvr.m3u8?hdnts=exp=1790092306~acl=/ksasports1live/ksasports1.smil/*~hmac=085b92fea6300cb5d3154817e6cfdd66cf37b3023fb8c91694daced4041a7243",
+      "stream_id": "saudi_sport",
+      "player_type": "watchtv"
+    },
+    {
       "name": "KSA Sports 2",
       "category": "قنوات رياضية - BeIN وSSC وغيرها",
-      "stream_url": "https://live.kwikmotion.com/ksasports2live/ksasports2.smil/playlist_dvr.m3u8?hdnts=exp=1790078164~acl=/ksasports2live/ksasports2.smil/*~hmac=d3f550907ac424ed3b0a64c2a0a9fa9d660872affd38ddffff13198904e20b0c",
+      "stream_url": "https://live.kwikmotion.com/ksasports2live/ksasports2.smil/playlist_dvr.m3u8?hdnts=exp=1790092307~acl=/ksasports2live/ksasports2.smil/*~hmac=1f13426b72b3a6e9be5812b76877f6012ae08b2d3cf02259e8ea538e54043d9f",
       "stream_id": "saudi_sport2",
-      "player_type": "watchtv"
-    },
-    {
-      "name": "KSA Sports 3",
-      "category": "قنوات رياضية - BeIN وSSC وغيرها",
-      "stream_url": "https://live.kwikmotion.com/ksasports3live/ksasports3.smil/playlist_dvr.m3u8?hdnts=exp=1790078165~acl=/ksasports3live/ksasports3.smil/*~hmac=416fa2a9815307acf65f211f5f94ca81a6ec8fd307eaec06bfe3cbc9622c1156",
-      "stream_id": "saudi_sport3",
-      "player_type": "watchtv"
-    },
-    {
-      "name": "KSA Sports 4",
-      "category": "قنوات رياضية - BeIN وSSC وغيرها",
-      "stream_url": "https://live.kwikmotion.com/ksasports4live/ksasports4.smil/playlist_dvr.m3u8?hdnts=exp=1790078166~acl=/ksasports4live/ksasports4.smil/*~hmac=d032411d66ec50590ff018ab54e67565e398074f11f882da961d1c2a8eec9ce8",
-      "stream_id": "saudi_sport4",
       "player_type": "watchtv"
     },
     {
@@ -1384,14 +1223,14 @@
     {
       "name": "Al Rabiaa one",
       "category": "قنوات رياضية - BeIN وSSC وغيرها",
-      "stream_url": "https://games2.elahmad.store/tv16_www_elahmad._alrabiaa_1/index.m3u8?token=b288df6bacb3995fd0b703ec65c79ebcd49842f5-c3ce76328ffbad859012b5956342580a-1790079901-1790078101",
+      "stream_url": "https://games2.elahmad.store/tv16_www_elahmad._alrabiaa_1/index.m3u8?token=1ef054ebc31bea68a2710acdb9e530927ddc5882-908a0b680e3a7c0eeadfa79e0ec21227-1790094046-1790092246",
       "stream_id": "alrabiaa_one",
       "player_type": "watchtv"
     },
     {
       "name": "Al Rabiaa two",
       "category": "قنوات رياضية - BeIN وSSC وغيرها",
-      "stream_url": "https://games2.elahmad.store/tv16_www_elahmad._alrabiaa_2/index.m3u8?token=3613e0f2b25f5e99e6d2f23dea9654ce91c263bf-9a6df429fec80600bb81194f0d77786b-1790079903-1790078103",
+      "stream_url": "https://games2.elahmad.store/tv16_www_elahmad._alrabiaa_2/index.m3u8?token=2e78f278715843bed55ccca62728af6686f4ef6f-ef9c01787db3c495ad4bae77522bf34f-1790094048-1790092248",
       "stream_id": "alrabiaa_two",
       "player_type": "watchtv"
     },
@@ -1650,14 +1489,14 @@
     {
       "name": "AfricaNews EN",
       "category": "قنوات عربية عالمية",
-      "stream_url": "https://cdn-euronews.akamaized.net/live/eds/africanews-en/25098/africanews-en.m3u8?hdnea=exp=1790164592~acl=*~hmac=4ae0a5f2b28eab6340683ae10e508eb631486d59c00c94fcbb5970c7e2dd43d9",
+      "stream_url": "https://cdn-euronews.akamaized.net/live/eds/africanews-en/25098/africanews-en.m3u8?hdnea=exp=1790178711~acl=*~hmac=790e2c3f5e7ed70a001d32eb4842899da2615c76f3fb0f187c7e7068bf9d4c97",
       "stream_id": "africanews_en",
       "player_type": "watchtv"
     },
     {
       "name": "AfricaNews FR",
       "category": "قنوات عربية عالمية",
-      "stream_url": "https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25097/africanews-fr.m3u8?hdnea=exp=1790164592~acl=*~hmac=4ae0a5f2b28eab6340683ae10e508eb631486d59c00c94fcbb5970c7e2dd43d9",
+      "stream_url": "https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25097/africanews-fr.m3u8?hdnea=exp=1790178711~acl=*~hmac=790e2c3f5e7ed70a001d32eb4842899da2615c76f3fb0f187c7e7068bf9d4c97",
       "stream_id": "africanews_fr",
       "player_type": "watchtv"
     },
@@ -1818,7 +1657,7 @@
     {
       "name": "Otv Lebanon",
       "category": "قنوات لبنان",
-      "stream_url": "https://games1.elahmad.store/tv16_www_elahmad._otv_lebanon/index.m3u8?token=5e795ba72a8d73ea29baf176cd657a3f11be3072-b4adbfe01502ef2fff2ba32d7f1c9003-1790079976-1790078176",
+      "stream_url": "https://games1.elahmad.store/tv16_www_elahmad._otv_lebanon/index.m3u8?token=a3070faebc1aae50469005932859770634e67079-4fb4940537aac3b1419c35cddc2be1a7-1790094138-1790092338",
       "stream_id": "otv_lebanon",
       "player_type": "watchtv"
     },
@@ -2161,7 +2000,7 @@
     {
       "name": "Nessma TV",
       "category": "قنوات تونس",
-      "stream_url": "https://games1.elahmad.store/tv16_www_elahmad._nessma/index.m3u8?token=9ca0efd2899050e784713951bee0e94c8c16e300-d7e081b98f7cdbb084596bc955654d01-1790080019-1790078219",
+      "stream_url": "https://games1.elahmad.store/tv16_www_elahmad._nessma/index.m3u8?token=f6b4efea2ffdcec6dc4b03c28a6864a3aa2dcf52-12b151e6e235129ae9bc6897c3a73cf7-1790094192-1790092392",
       "stream_id": "nessma",
       "player_type": "watchtv"
     },
@@ -2257,13 +2096,6 @@
       "player_type": "glarb"
     },
     {
-      "name": "canal Algérie",
-      "category": "قنوات الجزائر",
-      "stream_url": "https://games2.elahmad.store/tv16_www_elahmad._alegria_2/index.m3u8?token=cc443eb2e189a9a72d3e439b0c65fa63669de4b1-dfc7ffebb1fdbd0e8de8b9d4ea3e7932-1790080031-1790078231",
-      "stream_id": "algerie",
-      "player_type": "watchtv"
-    },
-    {
       "name": "قناة الجزيرة",
       "category": "قنوات قطر - الجزيرة",
       "stream_url": "https://www.elahmad.ru/tv/youtube.php?id=aljazeerachannel",
@@ -2355,20 +2187,6 @@
       "player_type": "youtube"
     },
     {
-      "name": "قناة بداية الفضائية‏",
-      "category": "قنوات السعودية - SBC وMBC والرياضية",
-      "stream_url": "https://www.elahmad.ru/tv/youtube.php?id=bedayatv",
-      "stream_id": "bedayatv",
-      "player_type": "youtube"
-    },
-    {
-      "name": "قناة الصحراء",
-      "category": "قنوات السعودية - SBC وMBC والرياضية",
-      "stream_url": "https://www.elahmad.ru/tv/youtube.php?id=alsahraatv1",
-      "stream_id": "alsahraatv1",
-      "player_type": "youtube"
-    },
-    {
       "name": "سكاي نيوز",
       "category": "قنوات الامارات - دبي وابوظبي",
       "stream_url": "https://www.elahmad.ru/tv/youtube.php?id=skynewsarabia",
@@ -2387,27 +2205,6 @@
       "category": "قنوات مصرية - CBC وON وAlNahartv",
       "stream_url": "https://www.elahmad.ru/tv/youtube.php?id=extralivetv",
       "stream_id": "extralivetv",
-      "player_type": "youtube"
-    },
-    {
-      "name": "CBC Sofra",
-      "category": "قنوات مصرية - CBC وON وAlNahartv",
-      "stream_url": "https://www.elahmad.ru/tv/youtube.php?id=CBCSofraStream",
-      "stream_id": "CBCSofraStream",
-      "player_type": "youtube"
-    },
-    {
-      "name": "CBC Egypt",
-      "category": "قنوات مصرية - CBC وON وAlNahartv",
-      "stream_url": "https://www.elahmad.ru/tv/youtube.php?id=CBCEgypt",
-      "stream_id": "CBCEgypt",
-      "player_type": "youtube"
-    },
-    {
-      "name": "صدى البلد",
-      "category": "قنوات مصرية - CBC وON وAlNahartv",
-      "stream_url": "https://www.elahmad.ru/tv/youtube.php?id=BaladtvLive",
-      "stream_id": "BaladtvLive",
       "player_type": "youtube"
     },
     {
