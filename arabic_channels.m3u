@@ -15,10 +15,24 @@ https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="bbcarab_ar1" tvg-name="BBC Arabic" tvg-logo="" group-title="قنوات عربية عالمية",BBC Arabic
 https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="rt_ar1" tvg-name="RT Arabic" tvg-logo="" group-title="قنوات عربية عالمية",RT Arabic
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="rt_news" tvg-name="RT News" tvg-logo="" group-title="قنوات عربية عالمية",RT News
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="rt_usa" tvg-name="RT Usa" tvg-logo="" group-title="قنوات عربية عالمية",RT Usa
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="rt_uk" tvg-name="RT Uk" tvg-logo="" group-title="قنوات عربية عالمية",RT Uk
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="rt_fr" tvg-name="RT Fr" tvg-logo="" group-title="قنوات عربية عالمية",RT Fr
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="rt_de" tvg-name="RT De" tvg-logo="" group-title="قنوات عربية عالمية",RT De
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="rt_doc" tvg-name="RT Doc" tvg-logo="" group-title="قنوات عربية عالمية",RT Doc
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="africanews_en" tvg-name="AfricaNews EN" tvg-logo="" group-title="قنوات عربية عالمية",AfricaNews EN
-https://cdn-euronews.akamaized.net/live/eds/africanews-en/25098/africanews-en.m3u8?hdnea=exp=1790191645~acl=*~hmac=e2e1bc8d158781a0eb19e1a695b30aaed99a6ceb9c8f07ffd555b5b2137275c2
+https://cdn-euronews.akamaized.net/live/eds/africanews-en/25098/africanews-en.m3u8?hdnea=exp=1790202286~acl=*~hmac=8a346b72979884cb24cc83fb83d171ff88226e75b09e36e083bfc459b08aefa5
 #EXTINF:-1 tvg-id="africanews_fr" tvg-name="AfricaNews FR" tvg-logo="" group-title="قنوات عربية عالمية",AfricaNews FR
-https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25097/africanews-fr.m3u8?hdnea=exp=1790191645~acl=*~hmac=e2e1bc8d158781a0eb19e1a695b30aaed99a6ceb9c8f07ffd555b5b2137275c2
+https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25097/africanews-fr.m3u8?hdnea=exp=1790202286~acl=*~hmac=8a346b72979884cb24cc83fb83d171ff88226e75b09e36e083bfc459b08aefa5
 #EXTINF:-1 tvg-id="cgtn_arabic" tvg-name="CGTN Arabic" tvg-logo="" group-title="قنوات عربية عالمية",CGTN Arabic
 https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="alalam1" tvg-name="Al Alam News" tvg-logo="" group-title="قنوات عربية عالمية",Al Alam News
@@ -39,6 +53,14 @@ https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="almaareftv" tvg-name="Al Maarif" tvg-logo="" group-title="قنوات عربية عالمية",Al Maarif
 https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="aljaliah_tv" tvg-name="Al jaliah tv" tvg-logo="" group-title="قنوات عربية عالمية",Al jaliah tv
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="awraas" tvg-name="Awraas TV" tvg-logo="" group-title="قنوات عربية عالمية",Awraas TV
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="mauritaniatv1" tvg-name="الموريتانية" tvg-logo="" group-title="قنوات عربية عالمية",الموريتانية
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="almouridiyyah" tvg-name="Almouridiyyah" tvg-logo="" group-title="قنوات عربية عالمية",Almouridiyyah
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="almagharibia" tvg-name="Al Magharibia" tvg-logo="" group-title="قنوات عربية عالمية",Al Magharibia
 https://www.elahmad.ru/tv/youtube.php?id=almagharibia
 #EXTINF:-1 tvg-id="skynews" tvg-name="Sky News" tvg-logo="" group-title="قنوات عربية عالمية",Sky News
@@ -53,3 +75,5 @@ https://www.elahmad.ru/tv/youtube.php?id=france24_fr
 https://www.elahmad.ru/tv/youtube.php?id=france24_en
 #EXTINF:-1 tvg-id="france24_es" tvg-name="France24 Es" tvg-logo="" group-title="قنوات عربية عالمية",France24 Es
 https://www.elahmad.ru/tv/youtube.php?id=france24_es
+#EXTINF:-1 tvg-id="mauritania_sport" tvg-name="الرياضية" tvg-logo="" group-title="قنوات عربية عالمية",الرياضية
+https://www.elahmad.ru/tv/youtube.php?id=mauritania_sport
