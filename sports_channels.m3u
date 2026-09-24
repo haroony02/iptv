@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="saudi_sport3" tvg-name="KSA Sports 3" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",KSA Sports 3
-https://live.kwikmotion.com/ksasports3live/ksasports3.smil/playlist_dvr.m3u8?hdnts=exp=1790228288~acl=/ksasports3live/ksasports3.smil/*~hmac=c4694f481cfcf600aa21b1bfb497944ac0e7e422d1f4512c3141c1358fce8560
+https://live.kwikmotion.com/ksasports3live/ksasports3.smil/playlist_dvr.m3u8?hdnts=exp=1790246359~acl=/ksasports3live/ksasports3.smil/*~hmac=4a8821aa62eaa193ee574de2a5fb130271415422fe7265f560fef31a4a4d4b1d
 #EXTINF:-1 tvg-id="al_sharjah_sport1" tvg-name="SharjahSports" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",SharjahSports
 https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="ktv_sport1" tvg-name="الكويت الرياضية" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",الكويت الرياضية
@@ -14,9 +14,9 @@ https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="aliraqya_sport" tvg-name="العراقية الرياضية" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",العراقية الرياضية
 https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="alrabiaa_one" tvg-name="Al Rabiaa one" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Al Rabiaa one
-https://games2.elahmad.store/tv16_www_elahmad._alrabiaa_1/index.m3u8?token=dd996397ca3cfd112e1d5223bebe4c0b68ce7b54-f8799770ba72841c9bc07549cda1291e-1790230029-1790228229
+https://games2.elahmad.store/tv16_www_elahmad._alrabiaa_1/index.m3u8?token=c5a82cfe1e70e22dc25d45689899b8590e8c5771-2ea4ba24fc03a1b35d2ac8e9f18c2597-1790248099-1790246299
 #EXTINF:-1 tvg-id="alrabiaa_two" tvg-name="Al Rabiaa two" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Al Rabiaa two
-https://games2.elahmad.store/tv16_www_elahmad._alrabiaa_2/index.m3u8?token=c99b08bb0fd46c7228cfdbe2768e43aadb839bdb-224d844269ed83e93ddce8ce36d4faef-1790230031-1790228231
+https://games2.elahmad.store/tv16_www_elahmad._alrabiaa_2/index.m3u8?token=e14a4fac5d05c8ecce0f284673008eaaf6353e0d-0d4bb43390dedd7f64f9548c1bfa83ae-1790248101-1790246301
 #EXTINF:-1 tvg-id="dubaisport1" tvg-name="Dubai Sports 1" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Dubai Sports 1
 https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="dubaisport2" tvg-name="Dubai Sports 2" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Dubai Sports 2
