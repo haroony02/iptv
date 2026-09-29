@@ -1,12 +1,14 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="saudi_sport" tvg-name="KSA Sports 1" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",KSA Sports 1
-https://live.kwikmotion.com/ksasports1live/ksasports1.smil/playlist_dvr.m3u8?hdnts=exp=1790624894~acl=/ksasports1live/ksasports1.smil/*~hmac=2c1e01076a16af8ae3e693033a6f0169013fbbc5a5cb793bb6e434b54731585c
-#EXTINF:-1 tvg-id="saudi_sport2" tvg-name="KSA Sports 2" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",KSA Sports 2
-https://live.kwikmotion.com/ksasports2live/ksasports2.smil/playlist_dvr.m3u8?hdnts=exp=1790624896~acl=/ksasports2live/ksasports2.smil/*~hmac=9e2446f7093f7bc58d893652646114160072e3e541ad82a5905d40ec106da19a
+#EXTINF:-1 tvg-id="ssc_sports_2" tvg-name="SSC 2" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",SSC 2
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="ssc_sports_3" tvg-name="SSC 3" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",SSC 3
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="ssc_sports_4" tvg-name="SSC 4" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",SSC 4
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="ssc_sports_5" tvg-name="SSC 5" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",SSC 5
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="saudi_sport3" tvg-name="KSA Sports 3" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",KSA Sports 3
-https://live.kwikmotion.com/ksasports3live/ksasports3.smil/playlist_dvr.m3u8?hdnts=exp=1790624898~acl=/ksasports3live/ksasports3.smil/*~hmac=2c02bafeee2741a28d33db2a1e619c4a6b7c6e9f2bfa3df7f94a54b7b378b432
-#EXTINF:-1 tvg-id="saudi_sport4" tvg-name="KSA Sports 4" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",KSA Sports 4
-https://live.kwikmotion.com/ksasports4live/ksasports4.smil/playlist_dvr.m3u8?hdnts=exp=1790624900~acl=/ksasports4live/ksasports4.smil/*~hmac=0b9fe5a6e5285a700b614eb4c5e71375f1ca279dfb0fd0ca4c67b51c956549ad
+https://live.kwikmotion.com/ksasports3live/ksasports3.smil/playlist_dvr.m3u8?hdnts=exp=1790640261~acl=/ksasports3live/ksasports3.smil/*~hmac=2be3eb7d29470b23bf9b86880b170563cf625f245c63ad5aeb727d6de3b4697b
 #EXTINF:-1 tvg-id="al_sharjah_sport1" tvg-name="SharjahSports" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",SharjahSports
 https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="ktv_sport1" tvg-name="الكويت الرياضية" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",الكويت الرياضية
@@ -20,9 +22,9 @@ https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="aliraqya_sport" tvg-name="العراقية الرياضية" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",العراقية الرياضية
 https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="alrabiaa_one" tvg-name="Al Rabiaa one" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Al Rabiaa one
-https://games2.elahmad.store/tv17_www_elahmad._alrabiaa_1/index.m3u8?token=89799f0ad948cc6581ffdab504c2cb212672ec3d-9550541a49f312ec4f30693301ad30c8-1790626639-1790624839
+https://games2.elahmad.store/tv17_www_elahmad._alrabiaa_1/index.m3u8?token=83440541c4884d6b28adef7b3cc9f5eaefe6d196-8169b2c706203efa159674e23efea65b-1790642000-1790640200
 #EXTINF:-1 tvg-id="alrabiaa_two" tvg-name="Al Rabiaa two" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Al Rabiaa two
-https://games2.elahmad.store/tv17_www_elahmad._alrabiaa_2/index.m3u8?token=dfc1e19687bf72dd6c00b271b8856bd84a5186fa-f6b700185cc42321d2b02c26f877f18a-1790626640-1790624840
+https://games2.elahmad.store/tv17_www_elahmad._alrabiaa_2/index.m3u8?token=8b38694d4b1819cd806d80a37acfb60e70efdfb7-ba2bc87b9c123271d6cd50e6d19f4ccb-1790642001-1790640201
 #EXTINF:-1 tvg-id="dubaisport1" tvg-name="Dubai Sports 1" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Dubai Sports 1
 https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="dubaisport2" tvg-name="Dubai Sports 2" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Dubai Sports 2
@@ -59,3 +61,65 @@ https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="swiss_sport" tvg-name="Swiss Sport" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Swiss Sport
 https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="safa_ps" tvg-name="صفا الفلسطينية" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",صفا الفلسطينية
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="duhok_sport" tvg-name="Duhok Sport" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Duhok Sport
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein1_premium" tvg-name="beIN 1 premium" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",beIN 1 premium
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein2_premium" tvg-name="beIN 2 premium" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",beIN 2 premium
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein3_premium" tvg-name="beIN 3 premium" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",beIN 3 premium
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein_m_1" tvg-name="beIN1 AR" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",beIN1 AR
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein_m_2" tvg-name="beIN2 AR" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",beIN2 AR
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein_m_3" tvg-name="beIN3 AR" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",beIN3 AR
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein_m_4" tvg-name="beIN4 AR" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",beIN4 AR
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein_m_5" tvg-name="beIN5 AR" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",beIN5 AR
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein_m_6" tvg-name="beIN 6" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",beIN 6
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein_m_7" tvg-name="beIN 7" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",beIN 7
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein1" tvg-name="beIN 1" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",beIN 1
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein2" tvg-name="beIN 2" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",beIN 2
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein3" tvg-name="beIN 3" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",beIN 3
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein4" tvg-name="beIN 4" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",beIN 4
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein5" tvg-name="beIN 5" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",beIN 5
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein6" tvg-name="beIN 6" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",beIN 6
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein7" tvg-name="beIN 7" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",beIN 7
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein8" tvg-name="beIN 8" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",beIN 8
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein9" tvg-name="beIN 9" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",beIN 9
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein10" tvg-name="beIN 10" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",beIN 10
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein11" tvg-name="beIN 11" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",beIN 11
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein12" tvg-name="beIN 12" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",beIN 12
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein13" tvg-name="beIN 13" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",beIN 13
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein1_max" tvg-name="Premium 1" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Premium 1
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein2_max" tvg-name="Premium 2" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Premium 2
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein3_max" tvg-name="Premium 3" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Premium 3
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="nahar_sport1" tvg-name="النهار الرياضية" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",النهار الرياضية
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="bein_news" tvg-name="beIN News" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",beIN News
+https://www.elahmad.ru/tv/youtube.php?id=bein_news
+#EXTINF:-1 tvg-id="bein_sports" tvg-name="beIN Sports" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",beIN Sports
+https://www.elahmad.ru/tv/youtube.php?id=bein_sports
