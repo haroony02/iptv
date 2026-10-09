@@ -1,6 +1,10 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="saudi_sport" tvg-name="KSA Sports 1" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",KSA Sports 1
+https://live.kwikmotion.com/ksasports1live/ksasports1.smil/playlist_dvr.m3u8?hdnts=exp=1791588288~acl=/ksasports1live/ksasports1.smil/*~hmac=0c89eb49aa51b3692568ff88a5687c622589eee09e7efd43f0ae92f6b048c886
 #EXTINF:-1 tvg-id="saudi_sport2" tvg-name="KSA Sports 2" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",KSA Sports 2
-https://live.kwikmotion.com/ksasports2live/ksasports2.smil/playlist_dvr.m3u8?hdnts=exp=1791573056~acl=/ksasports2live/ksasports2.smil/*~hmac=a99f2c868c3bb61da7856a93ca460d5c37dd9f6d83427443cdeb4f65cfadf644
+https://live.kwikmotion.com/ksasports2live/ksasports2.smil/playlist_dvr.m3u8?hdnts=exp=1791588290~acl=/ksasports2live/ksasports2.smil/*~hmac=59409b73c0ae449039a2f04f61c8f6213769849dc00a64ad78b2578f957f6de3
+#EXTINF:-1 tvg-id="saudi_sport3" tvg-name="KSA Sports 3" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",KSA Sports 3
+https://live.kwikmotion.com/ksasports3live/ksasports3.smil/playlist_dvr.m3u8?hdnts=exp=1791588291~acl=/ksasports3live/ksasports3.smil/*~hmac=298ae163a7d37b24efa6e33011a858f4568deae4799e82ca79cd2e90b53d024a
 #EXTINF:-1 tvg-id="al_sharjah_sport1" tvg-name="SharjahSports" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",SharjahSports
 https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="ktv_sport1" tvg-name="الكويت الرياضية" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",الكويت الرياضية
@@ -14,9 +18,9 @@ https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="aliraqya_sport" tvg-name="العراقية الرياضية" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",العراقية الرياضية
 https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="alrabiaa_one" tvg-name="Al Rabiaa one" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Al Rabiaa one
-https://games2.elahmad.store/tv18_www_elahmad._alrabiaa_1/index.m3u8?token=1e31867ba558fb432ee0b5876daaa586ea49f611-6a8ed81ac54d0f56ba77be6c2a015c53-1791574798-1791572998
+https://games2.elahmad.store/tv18_www_elahmad._alrabiaa_1/index.m3u8?token=2bc2fe0d2f076b5d964950c9201b257267d9314e-47aa23ac81a0cdcb29fb160c6e55d5dc-1791590028-1791588228
 #EXTINF:-1 tvg-id="alrabiaa_two" tvg-name="Al Rabiaa two" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Al Rabiaa two
-https://games2.elahmad.store/tv18_www_elahmad._alrabiaa_2/index.m3u8?token=47eac32f59ddd3e1f686e671c7fe7ba673a5b490-3d137a751279d6da938918b611b4c00b-1791574800-1791573000
+https://games2.elahmad.store/tv18_www_elahmad._alrabiaa_2/index.m3u8?token=3d44769486cda0891377199ae7fafde6f5c815e2-e9f25de6bfdff0999466c0fcf391ae25-1791590029-1791588229
 #EXTINF:-1 tvg-id="dubaisport1" tvg-name="Dubai Sports 1" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Dubai Sports 1
 https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="dubaisport2" tvg-name="Dubai Sports 2" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Dubai Sports 2
