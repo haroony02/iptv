@@ -1,24 +1,22 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="qoran_tv" tvg-name="القرآن الكريم" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",القرآن الكريم
-https://live.kwikmotion.com/ksaquranlive/ksaquran.smil/playlist_dvr.m3u8?hdnts=exp=1792482439~acl=/ksaquranlive/ksaquran.smil/*~hmac=6e1a753710203096eede673bd36f93cf627686df42a875d53c7e7a50ceb1470b
 #EXTINF:-1 tvg-id="sunna_tv" tvg-name="السنة النبوية" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",السنة النبوية
-https://live.kwikmotion.com/ksasunnalive/ksasunna.smil/playlist_dvr.m3u8?hdnts=exp=1792482444~acl=/ksasunnalive/ksasunna.smil/*~hmac=aa9965f9731fedae0eb840f67cbbd75508b9e8c9f94e273afec5c632881d0cf9
+https://live.kwikmotion.com/ksasunnalive/ksasunna.smil/playlist_dvr.m3u8?hdnts=exp=1792501555~acl=/ksasunnalive/ksasunna.smil/*~hmac=2a05b8ddfbb2b30636d5bff3125b350b304e7d863ea9501e8d5a0de39e64c477
 #EXTINF:-1 tvg-id="saudi_tv" tvg-name="الأولى السعودية" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",الأولى السعودية
-https://live.kwikmotion.com/ksa1live/ksa1.smil/playlist_dvr.m3u8?hdnts=exp=1792482449~acl=/ksa1live/ksa1.smil/*~hmac=d0d2b2313dc015b2e4516ff54290132fe2926101d2eaec63c4ff97dbc618b0af
+https://live.kwikmotion.com/ksa1live/ksa1.smil/playlist_dvr.m3u8?hdnts=exp=1792501559~acl=/ksa1live/ksa1.smil/*~hmac=82088483f57450df31ca80aeb6f077d6becd02867846e59be0d913fe42bf83ab
 #EXTINF:-1 tvg-id="saudi_ekhbariya" tvg-name="القناة الإخبارية" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",القناة الإخبارية
-https://live.kwikmotion.com/ikhbariyalive/ikhbariya.smil/playlist_dvr.m3u8?hdnts=exp=1792482453~acl=/ikhbariyalive/ikhbariya.smil/*~hmac=30139fd84c0f8ad14d251fa5934b4afc658b41a7f5d17f9c3d8234d001e537b6
+https://live.kwikmotion.com/ikhbariyalive/ikhbariya.smil/playlist_dvr.m3u8?hdnts=exp=1792501563~acl=/ikhbariyalive/ikhbariya.smil/*~hmac=af5e0a328c284f535aafbe055066908364e3db0d4f75c6c422ba39758b55b7ec
 #EXTINF:-1 tvg-id="saudi_sport" tvg-name="KSA Sports 1" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",KSA Sports 1
-https://live.kwikmotion.com/ksasports1live/ksasports1.smil/playlist_dvr.m3u8?hdnts=exp=1792482457~acl=/ksasports1live/ksasports1.smil/*~hmac=484f8199237f3bcba90d73ac4475a833dba5aac67a602128f0d717af0dd49ec0
+https://live.kwikmotion.com/ksasports1live/ksasports1.smil/playlist_dvr.m3u8?hdnts=exp=1792501569~acl=/ksasports1live/ksasports1.smil/*~hmac=90e24641928ed099cf0052ad700cb06b0d1db85c911983116291e9abe69bfe59
 #EXTINF:-1 tvg-id="saudi_sport2" tvg-name="KSA Sports 2" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",KSA Sports 2
-https://live.kwikmotion.com/ksasports2live/ksasports2.smil/playlist_dvr.m3u8?hdnts=exp=1792482460~acl=/ksasports2live/ksasports2.smil/*~hmac=61e3dd7dd33bf912c4742a90b29497f3d50d5a8938a47931155d20153aff92a4
+https://live.kwikmotion.com/ksasports2live/ksasports2.smil/playlist_dvr.m3u8?hdnts=exp=1792501572~acl=/ksasports2live/ksasports2.smil/*~hmac=b12792a42234e3b10210faded087ac52c143fde315d02c37700b4de5375c5824
 #EXTINF:-1 tvg-id="saudi_sport3" tvg-name="KSA Sports 3" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",KSA Sports 3
-https://live.kwikmotion.com/ksasports3live/ksasports3.smil/playlist_dvr.m3u8?hdnts=exp=1792482462~acl=/ksasports3live/ksasports3.smil/*~hmac=8cc3eae91f182e44d0bd8b58fb5cfe2177225c238aa70744fdf0fd82570c6c4f
+https://live.kwikmotion.com/ksasports3live/ksasports3.smil/playlist_dvr.m3u8?hdnts=exp=1792501574~acl=/ksasports3live/ksasports3.smil/*~hmac=10135f9e6b765953aa4767a9b46fe0c88c42bbbe159d5520cbe212b267c02814
+#EXTINF:-1 tvg-id="saudi_sport4" tvg-name="KSA Sports 4" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",KSA Sports 4
+https://live.kwikmotion.com/ksasports4live/ksasports4.smil/playlist_dvr.m3u8?hdnts=exp=1792501577~acl=/ksasports4live/ksasports4.smil/*~hmac=d10e6142329b116aa56a6155941fb275c0cd52fa3598e3a6f8cb98fdbc2dc654
 #EXTINF:-1 tvg-id="sbc_tv" tvg-name="SBC Channel" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",SBC Channel
-https://live.kwikmotion.com/sbclive/sbc.smil/playlist_dvr.m3u8?hdnts=exp=1792482465~acl=/sbclive/sbc.smil/*~hmac=fa567c604758f818c6050107fc0aa6d355da5190bc22a28b9963471be9212fe7
-#EXTINF:-1 tvg-id="thikrayat_tv" tvg-name="قناة ذكريات" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",قناة ذكريات
-https://live.kwikmotion.com/zikrayatlive/zikrayat.smil/playlist_dvr.m3u8?hdnts=exp=1792482468~acl=/zikrayatlive/zikrayat.smil/*~hmac=06bd89df425581e6b2863bcc7463035d6290f0ff5522fe7675eb65efe477f9a7
+https://live.kwikmotion.com/sbclive/sbc.smil/playlist_dvr.m3u8?hdnts=exp=1792501579~acl=/sbclive/sbc.smil/*~hmac=82b820bacb40e00a0bf0aaff24f7356b7bf78af489b0abdcb827d3e789237c1d
 #EXTINF:-1 tvg-id="saudi_now" tvg-name="السعودية الآن" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",السعودية الآن
-https://live.kwikmotion.com/ksasports4live/ksasports4.smil/playlist_dvr.m3u8?hdnts=exp=1792482471~acl=/ksasports4live/ksasports4.smil/*~hmac=b1c3d46553c164413cd92d83734458dd216e223a46d1d55914b0ba227898376a
+https://live.kwikmotion.com/ksasports4live/ksasports4.smil/playlist_dvr.m3u8?hdnts=exp=1792501585~acl=/ksasports4live/ksasports4.smil/*~hmac=da2f70e288b618e958b6596c1dc9e889d1a69ab014618255db53aab2a8a1f018
 #EXTINF:-1 tvg-id="SaudiQuranTv" tvg-name="القرآن الكريم" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",القرآن الكريم
 https://www.elahmad.ru/tv/youtube.php?id=SaudiQuranTv
 #EXTINF:-1 tvg-id="SaudiSunnahTv" tvg-name="السنة النبوية" tvg-logo="" group-title="قنوات السعودية - SBC وMBC والرياضية",السنة النبوية
