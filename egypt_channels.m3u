@@ -1,11 +1,19 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="sadaelbalad" tvg-name="Sada Elbalad" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Sada Elbalad
-https://games2.elahmad.store/tv20_www_elahmad._elbaladtv/index.m3u8?token=df19062a9d51ffc85de8330d13cb02bd544cff07-bbd42462d05e6422d294e4cc62e2811f-1792632749-1792630949
+https://games2.elahmad.store/tv20_www_elahmad._elbaladtv/index.m3u8?token=3f74a8b3f8a37c8d2d2d141be0b794e0f37e0062-bbefe7b6e1b65d0ca1f39eb1f162f2ff-1792651383-1792649583
+#EXTINF:-1 tvg-id="dmc" tvg-name="dmc Live" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",dmc Live
+https://games1.elahmad.store/tv20_www_elahmad._dmc/index.m3u8?token=2cc82176c4ae0ebba7edf1eff29780b840e1d45a-4776b8ff24a513d8896ec747dac1dd24-1792651390-1792649590
 #EXTINF:-1 tvg-id="dmc_drama" tvg-name="dmc Drama" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",dmc Drama
-https://games1.elahmad.store/tv20_www_elahmad._dmc_drama/index.m3u8?token=6898ccb4ff0a5e64c5443e88228d6b2d52b16264-fdacbbc2c1a728cc9b5520506326d29d-1792632758-1792630958
+https://games1.elahmad.store/tv20_www_elahmad._dmc_drama/index.m3u8?token=9dcf1d91ea43dcb03dc38badf505ce00be1ee6d2-6f8b9ea65c5ba61e5275d28640b44e09-1792651394-1792649594
 #EXTINF:-1 tvg-id="alhayat" tvg-name="AlHayat TV" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",AlHayat TV
-https://games2.elahmad.store/tv20_www_elahmad._alhayat_eg/index.m3u8?token=b2f868d899cef47f713dec634e918a0c804804ec-13d54e01e683669c932088e5f49ccea5-1792632775-1792630975
+https://games2.elahmad.store/tv20_www_elahmad._alhayat_eg/index.m3u8?token=8bdb140a73b1fa762947ca7ba4a62c3dbf8a2987-63d8061960e86630403d61251aae40ee-1792651414-1792649614
 #EXTINF:-1 tvg-id="CBCEgyptPlus" tvg-name="Extra News" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Extra News
 https://www.elahmad.ru/tv/youtube.php?id=CBCEgyptPlus
 #EXTINF:-1 tvg-id="extralivetv" tvg-name="Extra Live" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",Extra Live
 https://www.elahmad.ru/tv/youtube.php?id=extralivetv
+#EXTINF:-1 tvg-id="CBCSofraStream" tvg-name="CBC Sofra" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",CBC Sofra
+https://www.elahmad.ru/tv/youtube.php?id=CBCSofraStream
+#EXTINF:-1 tvg-id="CBCEgypt" tvg-name="CBC Egypt" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",CBC Egypt
+https://www.elahmad.ru/tv/youtube.php?id=CBCEgypt
+#EXTINF:-1 tvg-id="BaladtvLive" tvg-name="صدى البلد" tvg-logo="" group-title="قنوات مصرية - CBC وON وAlNahartv",صدى البلد
+https://www.elahmad.ru/tv/youtube.php?id=BaladtvLive
