@@ -1,13 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="saudi_sport" tvg-name="KSA Sports 1" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",KSA Sports 1
-https://live.kwikmotion.com/ksasports1live/ksasports1.smil/playlist_dvr.m3u8?hdnts=exp=1792671120~acl=/ksasports1live/ksasports1.smil/*~hmac=593abe88d81bd9c63427bb8668de21f4948a8ca8befb405c850e5088e4d5c8c2
-#EXTINF:-1 tvg-id="saudi_sport2" tvg-name="KSA Sports 2" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",KSA Sports 2
-https://live.kwikmotion.com/ksasports2live/ksasports2.smil/playlist_dvr.m3u8?hdnts=exp=1792671122~acl=/ksasports2live/ksasports2.smil/*~hmac=afb8754ce861b76838c6d4331dee55d522e42fdff135063dea34c2432b14ae92
-#EXTINF:-1 tvg-id="saudi_sport3" tvg-name="KSA Sports 3" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",KSA Sports 3
-https://live.kwikmotion.com/ksasports3live/ksasports3.smil/playlist_dvr.m3u8?hdnts=exp=1792671124~acl=/ksasports3live/ksasports3.smil/*~hmac=010d086895ef7f0d526e38f4fe0ca8bc48053ef1a6dbf57f8acdeec59294a3a4
-#EXTINF:-1 tvg-id="saudi_sport4" tvg-name="KSA Sports 4" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",KSA Sports 4
-https://live.kwikmotion.com/ksasports4live/ksasports4.smil/playlist_dvr.m3u8?hdnts=exp=1792671125~acl=/ksasports4live/ksasports4.smil/*~hmac=28696f8fcf700b9349f00bbbb451c01af6b6887858c9768326dce8dbb04feda5
 #EXTINF:-1 tvg-id="alrabiaa_one" tvg-name="Al Rabiaa one" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Al Rabiaa one
-https://games2.elahmad.store/tv20_www_elahmad._alrabiaa_1/index.m3u8?token=eaa570e2c8e8f5e8fe1ecc83865e1a08574fa644-a9873833e78820c3c20cce8eb0e130ae-1792672863-1792671063
+https://games2.elahmad.store/tv20_www_elahmad._alrabiaa_1/index.m3u8?token=585fcdadfcc08448c9ca90774fb420e254b28b09-606c90029d84de2a9c11c817bb8962dd-1792691710-1792689910
 #EXTINF:-1 tvg-id="alrabiaa_two" tvg-name="Al Rabiaa two" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Al Rabiaa two
-https://games2.elahmad.store/tv20_www_elahmad._alrabiaa_2/index.m3u8?token=183b98b6226d0049ceb7c53504f0f803edf7749a-59a2823e65629ca5aea27e20958bfd45-1792672865-1792671065
+https://games2.elahmad.store/tv20_www_elahmad._alrabiaa_2/index.m3u8?token=7bd4468fd90146108b63062879221e03d1365010-2f5913e5a440918e4e7df61dfcb9b232-1792691711-1792689911
