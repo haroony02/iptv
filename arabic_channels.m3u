@@ -1,8 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="africanews_en" tvg-name="AfricaNews EN" tvg-logo="" group-title="قنوات عربية عالمية",AfricaNews EN
-https://cdn-euronews.akamaized.net/live/eds/africanews-en/25098/africanews-en.m3u8?hdnea=exp=1792894347~acl=*~hmac=70baa6d6fd825f4c7bf1d0d9d52b0110248f87f5b34d1689d3a9b98877e584a6
+https://cdn-euronews.akamaized.net/live/eds/africanews-en/25098/africanews-en.m3u8?hdnea=exp=1792913475~acl=*~hmac=3ec8d13b1d1b2739cbe83160460fd828dbd17797824552cc5fc6c70716288146
 #EXTINF:-1 tvg-id="africanews_fr" tvg-name="AfricaNews FR" tvg-logo="" group-title="قنوات عربية عالمية",AfricaNews FR
-https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25097/africanews-fr.m3u8?hdnea=exp=1792894347~acl=*~hmac=70baa6d6fd825f4c7bf1d0d9d52b0110248f87f5b34d1689d3a9b98877e584a6
+https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25097/africanews-fr.m3u8?hdnea=exp=1792913475~acl=*~hmac=3ec8d13b1d1b2739cbe83160460fd828dbd17797824552cc5fc6c70716288146
 #EXTINF:-1 tvg-id="almagharibia" tvg-name="Al Magharibia" tvg-logo="" group-title="قنوات عربية عالمية",Al Magharibia
 https://www.elahmad.ru/tv/youtube.php?id=almagharibia
 #EXTINF:-1 tvg-id="skynews" tvg-name="Sky News" tvg-logo="" group-title="قنوات عربية عالمية",Sky News
@@ -17,3 +17,5 @@ https://www.elahmad.ru/tv/youtube.php?id=france24_fr
 https://www.elahmad.ru/tv/youtube.php?id=france24_en
 #EXTINF:-1 tvg-id="france24_es" tvg-name="France24 Es" tvg-logo="" group-title="قنوات عربية عالمية",France24 Es
 https://www.elahmad.ru/tv/youtube.php?id=france24_es
+#EXTINF:-1 tvg-id="mauritania_sport" tvg-name="الرياضية" tvg-logo="" group-title="قنوات عربية عالمية",الرياضية
+https://www.elahmad.ru/tv/youtube.php?id=mauritania_sport
