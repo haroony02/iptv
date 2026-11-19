@@ -1,5 +1,7 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="maroc2" tvg-name="2M TV" tvg-logo="" group-title="قنوات المغرب",2M TV
-https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="2m_journal" tvg-name="2m journal" tvg-logo="" group-title="قنوات المغرب",2m journal
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="M24TV" tvg-name="M24 TV" tvg-logo="" group-title="قنوات المغرب",M24 TV
 https://www.elahmad.ru/tv/youtube.php?id=M24TV

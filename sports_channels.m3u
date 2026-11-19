@@ -1,7 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="saudi_sport" tvg-name="KSA Sports 1" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",KSA Sports 1
-https://live.kwikmotion.com/ksasports1live/ksasports1.smil/playlist_dvr.m3u8?hdnts=exp=1793202014~acl=/ksasports1live/ksasports1.smil/*~hmac=1922d90f32b7cf49654f44fcc79598d73d3109a5221da3106f8fd56aa955b945
 #EXTINF:-1 tvg-id="alrabiaa_one" tvg-name="Al Rabiaa one" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Al Rabiaa one
-https://games2.elahmad.store/tv21_www_elahmad._alrabiaa_1/index.m3u8?token=a0e9bb790aecc5a6280b69ba7151450a6a2cb140-b96b1fe421554b41aa1e95d0bf05a536-1793203772-1793201972&remote=20.171.22.181
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
 #EXTINF:-1 tvg-id="alrabiaa_two" tvg-name="Al Rabiaa two" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Al Rabiaa two
-https://games2.elahmad.store/tv21_www_elahmad._alrabiaa_2/index.m3u8?token=3b8368795dcbed4e1f4f9f91826a76cb99f057a6-71502ac4a5dacea763244905822f0903-1793203775-1793201975&remote=20.171.22.181
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="realmadrid_es" tvg-name="Real Madrid es" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Real Madrid es
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="realmadrid_en" tvg-name="Real Madrid en" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Real Madrid en
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="trt-spor1" tvg-name="TRT Sport" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",TRT Sport
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
+#EXTINF:-1 tvg-id="kanal-z" tvg-name="Kanal Z" tvg-logo="" group-title="قنوات رياضية - BeIN وSSC وغيرها",Kanal Z
+https://raw.githubusercontent.com/gmswf/hls/main/master.m3u8
