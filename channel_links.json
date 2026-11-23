@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-23 09:59:32",
-  "total_channels": 69,
+  "generated": "2026-11-23 21:54:09",
+  "total_channels": 74,
   "channels": [
     {
       "name": "قناة براعم",
@@ -413,6 +413,41 @@
       "category": "قنوات مصرية - CBC وON وAlNahartv",
       "stream_url": "https://www.elahmad.ru/tv/youtube.php?id=extralivetv",
       "stream_id": "extralivetv",
+      "player_type": "youtube"
+    },
+    {
+      "name": "CBC Sofra",
+      "category": "قنوات مصرية - CBC وON وAlNahartv",
+      "stream_url": "https://www.elahmad.ru/tv/youtube.php?id=CBCSofraStream",
+      "stream_id": "CBCSofraStream",
+      "player_type": "youtube"
+    },
+    {
+      "name": "CBC Egypt",
+      "category": "قنوات مصرية - CBC وON وAlNahartv",
+      "stream_url": "https://www.elahmad.ru/tv/youtube.php?id=CBCEgypt",
+      "stream_id": "CBCEgypt",
+      "player_type": "youtube"
+    },
+    {
+      "name": "صدى البلد",
+      "category": "قنوات مصرية - CBC وON وAlNahartv",
+      "stream_url": "https://www.elahmad.ru/tv/youtube.php?id=BaladtvLive",
+      "stream_id": "BaladtvLive",
+      "player_type": "youtube"
+    },
+    {
+      "name": "beIN News",
+      "category": "قنوات رياضية - BeIN وSSC وغيرها",
+      "stream_url": "https://www.elahmad.ru/tv/youtube.php?id=bein_news",
+      "stream_id": "bein_news",
+      "player_type": "youtube"
+    },
+    {
+      "name": "beIN Sports",
+      "category": "قنوات رياضية - BeIN وSSC وغيرها",
+      "stream_url": "https://www.elahmad.ru/tv/youtube.php?id=bein_sports",
+      "stream_id": "bein_sports",
       "player_type": "youtube"
     },
     {
